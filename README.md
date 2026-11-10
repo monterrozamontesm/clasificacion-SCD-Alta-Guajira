@@ -41,3 +41,7 @@ Como `salidas/` ya trae los resultados de la corrida del trabajo, los *notebooks
 Monterroza Montes, M. A. (2026). *clasificacion-SCD-Alta-Guajira* [Software]. GitHub. https://github.com/monterrozamontesm/clasificacion-SCD-Alta-Guajira
 
 La versión que corresponde al trabajo de grado es la [v1.0](https://github.com/monterrozamontesm/clasificacion-SCD-Alta-Guajira/releases/tag/v1.0).
+
+## Licencia
+
+El código y la documentación propios se distribuyen bajo la licencia MIT (ver `LICENSE`). Los modelos de la carpeta `salidas/` (archivos `.pt`) se derivan de los pesos preentrenados de Ultralytics YOLOv8 y se rigen por la licencia AGPL-3.0 de Ultralytics. La mayoría de coordenadas de referencia del CSV maestro proceden de Geymond (2025), otras fueron reemplazadas y, las de la clase jagüey incorporada aquí proceden de Lerma et al. (2025). Por otro lado, 71 de las 120 geoformas candidatas evaluadas en este trabajo de grado proceden de la Agencia Nacional de Hidrocarburos y la Universidad Pedagógica y Tecnológica de Colombia (2025). Todas se encuentran debidamente referenciadas en el documento del trabajo de grado.
