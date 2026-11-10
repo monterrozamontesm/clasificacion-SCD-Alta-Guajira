@@ -3,6 +3,7 @@
 Código y resultados del trabajo de grado *Clasificación y priorización sistemática mediante visión artificial de potenciales depresiones subcirculares (SCD-H₂) en la región de la Alta Guajira, Colombia*, presentado para optar al título de Geólogo en la Universidad del Norte (Barranquilla, Colombia), 2026.
 
 **Autor:** Miguel Angel Monterroza Montes
+
 **Director:** M.Sc. Iván Darío Olaya López
 
 ## De qué trata
@@ -16,7 +17,7 @@ Las depresiones subcirculares (SCD) se asocian a emanaciones de hidrógeno natur
 | [`fase_1_adquisicion/`](fase_1_adquisicion) | Fase 1 (sección 3.1) | Rutina de descarga de imágenes con Google Maps Static API y su README |
 | [`fases_2_3_modelamiento/`](fases_2_3_modelamiento) | Fases 2 y 3 (secciones 3.2 y 3.3) | Seis *notebooks* de Google Colaboratory y la carpeta `salidas/` con sus resultados |
 
-El Anexo A del trabajo de grado (Tabla A1) indica qué *notebook* corresponde a cada sección del capítulo 3 (metodología) del trabajo de grado.
+El Anexo A del trabajo de grado (Tabla A1) indica qué *notebook* corresponde a cada sección del capítulo 3 (metodología).
 
 ## Cómo reproducirlo
 
@@ -30,11 +31,11 @@ El Anexo A del trabajo de grado (Tabla A1) indica qué *notebook* corresponde a 
 
 Como `salidas/` ya trae los resultados de la corrida del trabajo, los *notebooks* 05 y 06 pueden ejecutarse directamente para revisar la priorización y regenerar las figuras.
 
-## Lo que no se incluye
+## Lo que no se incluye en el repositorio
 
 - **Los modelos por pliegue de YOLOv8s-cls y ResNet-18**, por su tamaño. El *notebook* 03 los vuelve a entrenar si no los encuentra. Sí se incluyen el modelo final y los modelos de YOLOv8n-cls que usa el *notebook* 04.
-- **Las imágenes satelitales.** 
-
+- **Las imágenes satelitales.** Se obtienen con la rutina de la Fase 1 y los CSV incluidos. Como Google Maps Static API devuelve la misma imagen para la misma petición, la descarga es reproducible mientras Google no haya actualizado sus imágenes de esas zonas. La columna `sha256` de `salidas/particion.csv` permite comprobar si cada imagen descargada es idéntica a la usada en el trabajo.
+  
 ## Cómo citar
 
 Monterroza Montes, M. A. (2026). *clasificacion-SCD-Alta-Guajira* [Software]. GitHub. https://github.com/monterrozamontesm/clasificacion-SCD-Alta-Guajira
