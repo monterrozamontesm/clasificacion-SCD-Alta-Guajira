@@ -6,7 +6,7 @@ Notebook de adquisición automatizada del banco de 600 imágenes satelitales que
 
 ## Contexto del proyecto
 
-Este pipeline constituye la Fase 1 de la metodología del trabajo de grado en Geología de Miguel Ángel Monterroza Montes (Universidad del Norte, Barranquilla), sobre clasificación sistemática de depresiones sub-circulares asociadas a hidrógeno natural (SCD-H₂) mediante YOLOv8. 
+Este pipeline constituye la Fase 1 de la metodología del trabajo de grado en Geología de Miguel Ángel Monterroza Montes (Universidad del Norte, Barranquilla), acerca clasificación y priorización de SCD-H₂ en la Alta Guajira (Colombia) con YOLOv8-cls.
 
 El mismo notebook se reutiliza posteriormente (con ajustes menores documentados más abajo) para adquirir el banco de imágenes de aplicación sobre el cual el modelo entrenado emite su clasificación.
 
@@ -225,8 +225,6 @@ El kernel se reinició. Volver a ejecutar todas las celdas desde el inicio con `
 **Miguel Ángel Monterroza Montes**  
 Estudiante de Geología, Universidad del Norte  
 Barranquilla, Colombia  
-
-Trabajo de grado acerca clasificación y priorización de SCD-H₂ en la Alta Guajira (Colombia) con YOLOv8-cls.
 
 **Dirección académica:**  
 - Director: M.Sc. Iván Darío Olaya López  
