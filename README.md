@@ -44,8 +44,6 @@ La versión que corresponde al trabajo de grado es la [v1.0](https://github.com/
 
 ## Licencia
 
-## Licencia
-
 El código y la documentación propios se distribuyen bajo la licencia MIT (ver `LICENSE`). Los modelos de la carpeta `salidas/` (archivos `.pt`) se derivan de los pesos preentrenados de Ultralytics YOLOv8 y se rigen por la licencia AGPL-3.0 de Ultralytics.
 
 Las coordenadas de las nueve clases de referencia del CSV maestro proceden de Geymond (2025); algunas se ajustaron al centro de la estructura visible y unas pocas se reemplazaron por estructuras vecinas de la misma clase. Las de la clase Jagüey proceden de Lerma et al. (2025). De las 120 estructuras candidatas, 71 proceden de la Agencia Nacional de Hidrocarburos y la Universidad Pedagógica y Tecnológica de Colombia (2025) y 49 se identificaron en este trabajo. Estas fuentes se citan en el documento del trabajo de grado.
