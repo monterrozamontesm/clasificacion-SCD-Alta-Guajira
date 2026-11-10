@@ -39,3 +39,5 @@ Como `salidas/` ya trae los resultados de la corrida del trabajo, los *notebooks
 ## Cómo citar
 
 Monterroza Montes, M. A. (2026). *clasificacion-SCD-Alta-Guajira* [Software]. GitHub. https://github.com/monterrozamontesm/clasificacion-SCD-Alta-Guajira
+
+La versión que corresponde al trabajo de grado es la [v1.0](https://github.com/monterrozamontesm/clasificacion-SCD-Alta-Guajira/releases/tag/v1.0).
