@@ -16,7 +16,7 @@ Las depresiones subcirculares (SCD) se asocian a emanaciones de hidrógeno natur
 | [`fase_1_adquisicion/`](fase_1_adquisicion) | Fase 1 (sección 3.1) | Rutina de descarga de imágenes con Google Maps Static API y su README |
 | [`fases_2_3_modelamiento/`](fases_2_3_modelamiento) | Fases 2 y 3 (secciones 3.2 y 3.3) | Seis *notebooks* de Google Colaboratory y la carpeta `salidas/` con sus resultados |
 
-El Anexo A del trabajo de grado (Tabla A1) indica qué *notebook* corresponde a cada sección de la metodología.
+El Anexo A del trabajo de grado (Tabla A1) indica qué *notebook* corresponde a cada sección del capítulo 3 (metodología) del trabajo de grado.
 
 ## Cómo reproducirlo
 
