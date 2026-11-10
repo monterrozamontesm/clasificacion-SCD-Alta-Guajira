@@ -6,7 +6,7 @@ Notebook de adquisición automatizada del banco de 600 imágenes satelitales que
 
 ## Contexto del proyecto
 
-Este pipeline constituye la Fase 1 de la metodología del trabajo de grado en Geología de Miguel Ángel Monterroza Montes (Universidad del Norte, Barranquilla), sobre clasificación sistemática de depresiones sub-circulares asociadas a hidrógeno natural (SCD-H₂) mediante YOLOv8. El trabajo es dirigido por M.Sc. Iván Darío Olaya López. 
+Este pipeline constituye la Fase 1 de la metodología del trabajo de grado en Geología de Miguel Ángel Monterroza Montes (Universidad del Norte, Barranquilla), sobre clasificación sistemática de depresiones sub-circulares asociadas a hidrógeno natural (SCD-H₂) mediante YOLOv8. 
 
 El mismo notebook se reutiliza posteriormente (con ajustes menores documentados más abajo) para adquirir el banco de imágenes de aplicación sobre el cual el modelo entrenado emite su clasificación.
 
@@ -53,7 +53,7 @@ Se creó un entorno conda dedicado llamado `hidrogeno` desde Anaconda Prompt, so
 
 ### Preparación previa
 
-Antes de la primera ejecución, se debe configurar la API key de Google Maps Static API. Para ello, abrir el notebook y localizar la Celda 2 (`Configuración de la API Key`). Reemplazar la cadena `TU_API_KEY_AQUI` por la clave real. **No compartir el notebook con la clave embebida**: antes de publicar o entregar el archivo a terceros, restaurar el placeholder para evitar exposición accidental de la credencial.
+Antes de la primera ejecución, se debe configurar la API key de Google Maps Static API. Para ello, abrir el notebook y localizar la Celda 2 (`Configuración de la API Key`). Reemplazar la cadena `TU_API_KEY_AQUI` por la clave real.
 
 ### Ejecución estándar
 
@@ -183,7 +183,7 @@ Para pruebas rápidas sin procesar el CSV completo, se pueden activar temporalme
 
 Las decisiones documentadas a continuación fueron adoptadas tras validación empírica durante el desarrollo del pipeline y quedan registradas aquí para trazabilidad.
 
-**Uso de Static API en lugar de captura de pantalla automatizada.** La aproximación previa (Ginzburg et al., 2025) empleaba automatización de capturas de pantalla sobre la interfaz web de Google Maps. La Static API se prefiere por tres razones: resolución nativa superior, ausencia de elementos de interfaz gráfica superpuestos, y reproducibilidad plena en cualquier entorno independientemente del hardware de visualización.
+**Uso de Static API en lugar de captura de pantalla automatizada.** Un trabajo previo (Ginzburg et al., 2025) empleaba automatización de capturas de pantalla sobre la interfaz web de Google Maps. La Static API se prefiere por tres razones: resolución nativa superior, ausencia de elementos de interfaz gráfica superpuestos, y reproducibilidad plena en cualquier entorno independientemente del hardware de visualización.
 
 **Recorte a 1184×1184.** El servicio devuelve imágenes de 1280×1280 con una franja inferior con atribución del servicio. El recorte centrado a 1184 elimina esa franja simétricamente para preservar la centralidad geográfica de la estructura de interés.
 
@@ -220,21 +220,13 @@ El kernel se reinició. Volver a ejecutar todas las celdas desde el inicio con `
 
 ---
 
-## Estado del proyecto
-
-- **Versión del notebook:** consolidada a un único dataset uniforme (septiembre 2026).
-- **Estado de ejecución:** 600/600 imágenes descargadas sin errores en la ejecución de referencia.
-- **Reproducibilidad:** verificada en entorno Windows 11 + Miniconda + Python 3.11.
-
----
-
 ## Autor y contacto
 
 **Miguel Ángel Monterroza Montes**  
 Estudiante de Geología, Universidad del Norte  
 Barranquilla, Colombia  
 
-Trabajo de grado sobre clasificación sistemática de depresiones sub-circulares mediante YOLOv8 en la Alta Guajira.
+Trabajo de grado acerca clasificación y priorización de SCD-H₂ en la Alta Guajira (Colombia) con YOLOv8-cls.
 
 **Dirección académica:**  
 - Director: M.Sc. Iván Darío Olaya López  
