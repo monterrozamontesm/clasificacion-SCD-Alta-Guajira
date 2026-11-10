@@ -4,7 +4,7 @@ Seis *notebooks* de Google Colaboratory que se ejecutan en orden. Se comunican e
 
 ## Notebooks
 
-| Notebook | Sección del trabajo | Qué hace | Archivos que deja en `salidas/` |
+| Notebook | Sección del trabajo de grado | Qué hace | Archivos que deja en `salidas/` |
 |---|---|---|---|
 | `01_particion.ipynb` | 3.2.1 | Agrupa las 600 imágenes en sitios, aparta el holdout y forma los cinco pliegues | `particion.csv`, `particion.hash` |
 | `02_eda.ipynb` | 3.2.2 | Examina el *zoom*, el color y la ubicación de cada clase y entrena las líneas base | `lineas_base.csv` |
