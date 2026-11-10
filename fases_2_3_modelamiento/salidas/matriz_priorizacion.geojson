@@ -1,0 +1,3725 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.1661319,
+     11.8470183
+    ]
+   },
+   "properties": {
+    "prioridad": 1,
+    "id": 1,
+    "zoom": 19,
+    "P(H2)": 0.9966,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.0023,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 8.0855,
+    "P(Fairy circle)": 0.0002,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.0,
+    "P(Impact crater)": 0.0007,
+    "P(Jaguey)": 0.0023,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0877122,
+     11.9927349
+    ]
+   },
+   "properties": {
+    "prioridad": 2,
+    "id": 17,
+    "zoom": 19,
+    "P(H2)": 0.9952,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Fairy circle",
+    "P(alternativa)": 0.0029,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 1.0508,
+    "P(Fairy circle)": 0.0029,
+    "P(Fairy fort)": 0.0,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0,
+    "P(Impact crater)": 0.0007,
+    "P(Jaguey)": 0.001,
+    "P(Karst)": 0.0,
+    "P(Salt lake)": 0.0001,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.813059,
+     12.1484752
+    ]
+   },
+   "properties": {
+    "prioridad": 3,
+    "id": 99,
+    "zoom": 19,
+    "P(H2)": 0.9932,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.005,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 2.5558,
+    "P(Fairy circle)": 0.0002,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.0,
+    "P(Impact crater)": 0.0014,
+    "P(Jaguey)": 0.005,
+    "P(Karst)": 0.0,
+    "P(Salt lake)": 0.0001,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.1709006,
+     11.8288989
+    ]
+   },
+   "properties": {
+    "prioridad": 4,
+    "id": 2,
+    "zoom": 19,
+    "P(H2)": 0.9902,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.0052,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 10.1136,
+    "P(Fairy circle)": 0.0019,
+    "P(Fairy fort)": 0.0,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0,
+    "P(Impact crater)": 0.0052,
+    "P(Jaguey)": 0.0025,
+    "P(Karst)": 0.0,
+    "P(Salt lake)": 0.0001,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9058755,
+     11.9600664
+    ]
+   },
+   "properties": {
+    "prioridad": 5,
+    "id": 42,
+    "zoom": 19,
+    "P(H2)": 0.9818,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.0139,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 3.5141,
+    "P(Fairy circle)": 0.0,
+    "P(Fairy fort)": 0.0004,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0001,
+    "P(Impact crater)": 0.0139,
+    "P(Jaguey)": 0.0029,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0007,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0391339,
+     12.0229047
+    ]
+   },
+   "properties": {
+    "prioridad": 6,
+    "id": 29,
+    "zoom": 19,
+    "P(H2)": 0.9792,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.0176,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 1.4221,
+    "P(Fairy circle)": 0.0011,
+    "P(Fairy fort)": 0.0,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0,
+    "P(Impact crater)": 0.0176,
+    "P(Jaguey)": 0.0019,
+    "P(Karst)": 0.0,
+    "P(Salt lake)": 0.0,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.1376381,
+     11.8378104
+    ]
+   },
+   "properties": {
+    "prioridad": 7,
+    "id": 4,
+    "zoom": 19,
+    "P(H2)": 0.9728,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.0091,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 9.6228,
+    "P(Fairy circle)": 0.0065,
+    "P(Fairy fort)": 0.006,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0007,
+    "P(Impact crater)": 0.0091,
+    "P(Jaguey)": 0.0025,
+    "P(Karst)": 0.0015,
+    "P(Salt lake)": 0.0002,
+    "P(Thermokarst)": 0.0004
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9775789,
+     11.9435764
+    ]
+   },
+   "properties": {
+    "prioridad": 8,
+    "id": 34,
+    "zoom": 19,
+    "P(H2)": 0.9709,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Fairy circle",
+    "P(alternativa)": 0.0099,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 1.2984,
+    "P(Fairy circle)": 0.0099,
+    "P(Fairy fort)": 0.0049,
+    "P(Farm circle)": 0.0004,
+    "P(Flooded dune)": 0.0002,
+    "P(Impact crater)": 0.0051,
+    "P(Jaguey)": 0.0073,
+    "P(Karst)": 0.0002,
+    "P(Salt lake)": 0.0009,
+    "P(Thermokarst)": 0.0003
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8910599,
+     11.9611964
+    ]
+   },
+   "properties": {
+    "prioridad": 9,
+    "id": 52,
+    "zoom": 19,
+    "P(H2)": 0.9667,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.0203,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 5.1164,
+    "P(Fairy circle)": 0.0005,
+    "P(Fairy fort)": 0.0019,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0003,
+    "P(Impact crater)": 0.0085,
+    "P(Jaguey)": 0.0203,
+    "P(Karst)": 0.0002,
+    "P(Salt lake)": 0.0013,
+    "P(Thermokarst)": 0.0002
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.4349515,
+     11.9427832
+    ]
+   },
+   "properties": {
+    "prioridad": 10,
+    "id": 70,
+    "zoom": 20,
+    "P(H2)": 0.9652,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Fairy circle",
+    "P(alternativa)": 0.0178,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 14.5368,
+    "P(Fairy circle)": 0.0178,
+    "P(Fairy fort)": 0.0006,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.0001,
+    "P(Impact crater)": 0.0019,
+    "P(Jaguey)": 0.0139,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0003,
+    "P(Thermokarst)": 0.0001
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9391696,
+     11.9447026
+    ]
+   },
+   "properties": {
+    "prioridad": 11,
+    "id": 36,
+    "zoom": 19,
+    "P(H2)": 0.9583,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.0333,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 0.2623,
+    "P(Fairy circle)": 0.0008,
+    "P(Fairy fort)": 0.0016,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0006,
+    "P(Impact crater)": 0.0021,
+    "P(Jaguey)": 0.0333,
+    "P(Karst)": 0.0016,
+    "P(Salt lake)": 0.0013,
+    "P(Thermokarst)": 0.0002
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8878068,
+     11.9624482
+    ]
+   },
+   "properties": {
+    "prioridad": 12,
+    "id": 53,
+    "zoom": 19,
+    "P(H2)": 0.9556,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.0201,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 5.4678,
+    "P(Fairy circle)": 0.0005,
+    "P(Fairy fort)": 0.0019,
+    "P(Farm circle)": 0.0008,
+    "P(Flooded dune)": 0.0002,
+    "P(Impact crater)": 0.0159,
+    "P(Jaguey)": 0.0201,
+    "P(Karst)": 0.0006,
+    "P(Salt lake)": 0.0038,
+    "P(Thermokarst)": 0.0004
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8819693,
+     11.9653042
+    ]
+   },
+   "properties": {
+    "prioridad": 13,
+    "id": 59,
+    "zoom": 19,
+    "P(H2)": 0.9529,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.0258,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 6.1097,
+    "P(Fairy circle)": 0.0,
+    "P(Fairy fort)": 0.0018,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.0003,
+    "P(Impact crater)": 0.0105,
+    "P(Jaguey)": 0.0258,
+    "P(Karst)": 0.0,
+    "P(Salt lake)": 0.0085,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9033085,
+     11.9593356
+    ]
+   },
+   "properties": {
+    "prioridad": 14,
+    "id": 43,
+    "zoom": 19,
+    "P(H2)": 0.9265,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.0344,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 3.7995,
+    "P(Fairy circle)": 0.0042,
+    "P(Fairy fort)": 0.0041,
+    "P(Farm circle)": 0.0009,
+    "P(Flooded dune)": 0.0022,
+    "P(Impact crater)": 0.0138,
+    "P(Jaguey)": 0.0344,
+    "P(Karst)": 0.0036,
+    "P(Salt lake)": 0.0077,
+    "P(Thermokarst)": 0.0027
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9060574,
+     12.0889365
+    ]
+   },
+   "properties": {
+    "prioridad": 15,
+    "id": 92,
+    "zoom": 19,
+    "P(H2)": 0.9222,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.0427,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 7.8325,
+    "P(Fairy circle)": 0.0041,
+    "P(Fairy fort)": 0.0009,
+    "P(Farm circle)": 0.0003,
+    "P(Flooded dune)": 0.0038,
+    "P(Impact crater)": 0.0243,
+    "P(Jaguey)": 0.0427,
+    "P(Karst)": 0.0003,
+    "P(Salt lake)": 0.0013,
+    "P(Thermokarst)": 0.0002
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9081531,
+     11.9593147
+    ]
+   },
+   "properties": {
+    "prioridad": 16,
+    "id": 40,
+    "zoom": 18,
+    "P(H2)": 0.9152,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.0683,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 3.2757,
+    "P(Fairy circle)": 0.0,
+    "P(Fairy fort)": 0.0002,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0002,
+    "P(Impact crater)": 0.015,
+    "P(Jaguey)": 0.0683,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0009,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0830532,
+     11.9883524
+    ]
+   },
+   "properties": {
+    "prioridad": 17,
+    "id": 11,
+    "zoom": 19,
+    "P(H2)": 0.915,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.0647,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 0.7437,
+    "P(Fairy circle)": 0.0083,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0007,
+    "P(Flooded dune)": 0.0005,
+    "P(Impact crater)": 0.0647,
+    "P(Jaguey)": 0.01,
+    "P(Karst)": 0.0004,
+    "P(Salt lake)": 0.0001,
+    "P(Thermokarst)": 0.0003
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.1672596,
+     11.8331229
+    ]
+   },
+   "properties": {
+    "prioridad": 18,
+    "id": 3,
+    "zoom": 19,
+    "P(H2)": 0.9059,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.034,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 9.6314,
+    "P(Fairy circle)": 0.0139,
+    "P(Fairy fort)": 0.0014,
+    "P(Farm circle)": 0.0053,
+    "P(Flooded dune)": 0.0065,
+    "P(Impact crater)": 0.021,
+    "P(Jaguey)": 0.034,
+    "P(Karst)": 0.0032,
+    "P(Salt lake)": 0.0024,
+    "P(Thermokarst)": 0.0063
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.430983,
+     11.9325134
+    ]
+   },
+   "properties": {
+    "prioridad": 19,
+    "id": 66,
+    "zoom": 19,
+    "P(H2)": 0.8915,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.0383,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 15.093,
+    "P(Fairy circle)": 0.0294,
+    "P(Fairy fort)": 0.0008,
+    "P(Farm circle)": 0.0009,
+    "P(Flooded dune)": 0.0003,
+    "P(Impact crater)": 0.0341,
+    "P(Jaguey)": 0.0383,
+    "P(Karst)": 0.0026,
+    "P(Salt lake)": 0.0011,
+    "P(Thermokarst)": 0.0009
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9048691,
+     12.0895129
+    ]
+   },
+   "properties": {
+    "prioridad": 20,
+    "id": 93,
+    "zoom": 19,
+    "P(H2)": 0.8812,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.073,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 7.9244,
+    "P(Fairy circle)": 0.0003,
+    "P(Fairy fort)": 0.0005,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.0055,
+    "P(Impact crater)": 0.073,
+    "P(Jaguey)": 0.0369,
+    "P(Karst)": 0.0003,
+    "P(Salt lake)": 0.0023,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8491204,
+     12.1232409
+    ]
+   },
+   "properties": {
+    "prioridad": 21,
+    "id": 101,
+    "zoom": 19,
+    "P(H2)": 0.8592,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.1211,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 5.2077,
+    "P(Fairy circle)": 0.0014,
+    "P(Fairy fort)": 0.0003,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0001,
+    "P(Impact crater)": 0.1211,
+    "P(Jaguey)": 0.0173,
+    "P(Karst)": 0.0002,
+    "P(Salt lake)": 0.0003,
+    "P(Thermokarst)": 0.0001
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.1059259,
+     12.018486
+    ]
+   },
+   "properties": {
+    "prioridad": 22,
+    "id": 27,
+    "zoom": 19,
+    "P(H2)": 0.8575,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Fairy circle",
+    "P(alternativa)": 0.1081,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 3.196,
+    "P(Fairy circle)": 0.1081,
+    "P(Fairy fort)": 0.0022,
+    "P(Farm circle)": 0.0014,
+    "P(Flooded dune)": 0.0019,
+    "P(Impact crater)": 0.0203,
+    "P(Jaguey)": 0.0048,
+    "P(Karst)": 0.0014,
+    "P(Salt lake)": 0.0016,
+    "P(Thermokarst)": 0.0007
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.1359384,
+     11.8269706
+    ]
+   },
+   "properties": {
+    "prioridad": 23,
+    "id": 7,
+    "zoom": 20,
+    "P(H2)": 0.8464,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.0882,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 10.8256,
+    "P(Fairy circle)": 0.0008,
+    "P(Fairy fort)": 0.0063,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.0015,
+    "P(Impact crater)": 0.0544,
+    "P(Jaguey)": 0.0882,
+    "P(Karst)": 0.0009,
+    "P(Salt lake)": 0.0009,
+    "P(Thermokarst)": 0.0005
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0951275,
+     12.0150443
+    ]
+   },
+   "properties": {
+    "prioridad": 24,
+    "id": 24,
+    "zoom": 19,
+    "P(H2)": 0.846,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.116,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 1.9821,
+    "P(Fairy circle)": 0.0096,
+    "P(Fairy fort)": 0.0005,
+    "P(Farm circle)": 0.0007,
+    "P(Flooded dune)": 0.0009,
+    "P(Impact crater)": 0.116,
+    "P(Jaguey)": 0.0244,
+    "P(Karst)": 0.0012,
+    "P(Salt lake)": 0.0002,
+    "P(Thermokarst)": 0.0006
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.899852,
+     11.9622506
+    ]
+   },
+   "properties": {
+    "prioridad": 25,
+    "id": 46,
+    "zoom": 19,
+    "P(H2)": 0.8412,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.1404,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 4.1577,
+    "P(Fairy circle)": 0.0,
+    "P(Fairy fort)": 0.0003,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.001,
+    "P(Impact crater)": 0.1404,
+    "P(Jaguey)": 0.0099,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.007,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9001357,
+     11.9599626
+    ]
+   },
+   "properties": {
+    "prioridad": 26,
+    "id": 45,
+    "zoom": 19,
+    "P(H2)": 0.8411,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.1159,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 4.1375,
+    "P(Fairy circle)": 0.0003,
+    "P(Fairy fort)": 0.0007,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0044,
+    "P(Impact crater)": 0.0175,
+    "P(Jaguey)": 0.1159,
+    "P(Karst)": 0.0011,
+    "P(Salt lake)": 0.0159,
+    "P(Thermokarst)": 0.0028
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.1054554,
+     12.0180599
+    ]
+   },
+   "properties": {
+    "prioridad": 27,
+    "id": 26,
+    "zoom": 19,
+    "P(H2)": 0.8302,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.0719,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 3.1378,
+    "P(Fairy circle)": 0.0402,
+    "P(Fairy fort)": 0.0027,
+    "P(Farm circle)": 0.0053,
+    "P(Flooded dune)": 0.002,
+    "P(Impact crater)": 0.0719,
+    "P(Jaguey)": 0.039,
+    "P(Karst)": 0.0022,
+    "P(Salt lake)": 0.0034,
+    "P(Thermokarst)": 0.0031
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0925305,
+     12.0156471
+    ]
+   },
+   "properties": {
+    "prioridad": 28,
+    "id": 25,
+    "zoom": 19,
+    "P(H2)": 0.8234,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.1043,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 1.7081,
+    "P(Fairy circle)": 0.0122,
+    "P(Fairy fort)": 0.0005,
+    "P(Farm circle)": 0.0052,
+    "P(Flooded dune)": 0.0005,
+    "P(Impact crater)": 0.0473,
+    "P(Jaguey)": 0.1043,
+    "P(Karst)": 0.001,
+    "P(Salt lake)": 0.0041,
+    "P(Thermokarst)": 0.0015
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0814197,
+     11.9890136
+    ]
+   },
+   "properties": {
+    "prioridad": 29,
+    "id": 12,
+    "zoom": 19,
+    "P(H2)": 0.7753,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.1847,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 0.9194,
+    "P(Fairy circle)": 0.0057,
+    "P(Fairy fort)": 0.0024,
+    "P(Farm circle)": 0.004,
+    "P(Flooded dune)": 0.0003,
+    "P(Impact crater)": 0.0222,
+    "P(Jaguey)": 0.1847,
+    "P(Karst)": 0.0015,
+    "P(Salt lake)": 0.0033,
+    "P(Thermokarst)": 0.0004
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0753371,
+     12.0074057
+    ]
+   },
+   "properties": {
+    "prioridad": 30,
+    "id": 21,
+    "zoom": 19,
+    "P(H2)": 0.7701,
+    "franja": "alta",
+    "clase predicha": "H2",
+    "clase alternativa": "Fairy circle",
+    "P(alternativa)": 0.1297,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 0.5013,
+    "P(Fairy circle)": 0.1297,
+    "P(Fairy fort)": 0.0091,
+    "P(Farm circle)": 0.0043,
+    "P(Flooded dune)": 0.0033,
+    "P(Impact crater)": 0.0437,
+    "P(Jaguey)": 0.0216,
+    "P(Karst)": 0.0053,
+    "P(Salt lake)": 0.006,
+    "P(Thermokarst)": 0.0068
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8790776,
+     11.9641561
+    ]
+   },
+   "properties": {
+    "prioridad": 31,
+    "id": 62,
+    "zoom": 20,
+    "P(H2)": 0.7015,
+    "franja": "media",
+    "clase predicha": "H2",
+    "clase alternativa": "Salt lake",
+    "P(alternativa)": 0.1024,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 6.4194,
+    "P(Fairy circle)": 0.0242,
+    "P(Fairy fort)": 0.057,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0379,
+    "P(Impact crater)": 0.0561,
+    "P(Jaguey)": 0.0207,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.1024,
+    "P(Thermokarst)": 0.0001
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.1367705,
+     11.8375851
+    ]
+   },
+   "properties": {
+    "prioridad": 32,
+    "id": 5,
+    "zoom": 20,
+    "P(H2)": 0.6994,
+    "franja": "media",
+    "clase predicha": "H2",
+    "clase alternativa": "Fairy circle",
+    "P(alternativa)": 0.0897,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 9.6773,
+    "P(Fairy circle)": 0.0897,
+    "P(Fairy fort)": 0.0307,
+    "P(Farm circle)": 0.0031,
+    "P(Flooded dune)": 0.0074,
+    "P(Impact crater)": 0.0514,
+    "P(Jaguey)": 0.0847,
+    "P(Karst)": 0.0129,
+    "P(Salt lake)": 0.0097,
+    "P(Thermokarst)": 0.011
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9053387,
+     11.9593674
+    ]
+   },
+   "properties": {
+    "prioridad": 33,
+    "id": 41,
+    "zoom": 19,
+    "P(H2)": 0.6918,
+    "franja": "media",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.2339,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 3.5794,
+    "P(Fairy circle)": 0.0002,
+    "P(Fairy fort)": 0.0006,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0009,
+    "P(Impact crater)": 0.0609,
+    "P(Jaguey)": 0.2339,
+    "P(Karst)": 0.0064,
+    "P(Salt lake)": 0.0036,
+    "P(Thermokarst)": 0.0015
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.1017413,
+     11.9924051
+    ]
+   },
+   "properties": {
+    "prioridad": 34,
+    "id": 19,
+    "zoom": 19,
+    "P(H2)": 0.6904,
+    "franja": "media",
+    "clase predicha": "H2",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.2096,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 0.7438,
+    "P(Fairy circle)": 0.0187,
+    "P(Fairy fort)": 0.0003,
+    "P(Farm circle)": 0.0019,
+    "P(Flooded dune)": 0.0005,
+    "P(Impact crater)": 0.2096,
+    "P(Jaguey)": 0.073,
+    "P(Karst)": 0.0029,
+    "P(Salt lake)": 0.0014,
+    "P(Thermokarst)": 0.0011
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8845308,
+     11.9641707
+    ]
+   },
+   "properties": {
+    "prioridad": 35,
+    "id": 55,
+    "zoom": 19,
+    "P(H2)": 0.6805,
+    "franja": "media",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.3098,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 5.8265,
+    "P(Fairy circle)": 0.0009,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.0044,
+    "P(Impact crater)": 0.0033,
+    "P(Jaguey)": 0.3098,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0008,
+    "P(Thermokarst)": 0.0001
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.4319255,
+     11.9323195
+    ]
+   },
+   "properties": {
+    "prioridad": 36,
+    "id": 67,
+    "zoom": 19,
+    "P(H2)": 0.6581,
+    "franja": "media",
+    "clase predicha": "H2",
+    "clase alternativa": "Fairy circle",
+    "P(alternativa)": 0.1874,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 15.1757,
+    "P(Fairy circle)": 0.1874,
+    "P(Fairy fort)": 0.0053,
+    "P(Farm circle)": 0.0027,
+    "P(Flooded dune)": 0.0005,
+    "P(Impact crater)": 0.0705,
+    "P(Jaguey)": 0.061,
+    "P(Karst)": 0.0029,
+    "P(Salt lake)": 0.0055,
+    "P(Thermokarst)": 0.0061
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.136327,
+     11.8272343
+    ]
+   },
+   "properties": {
+    "prioridad": 37,
+    "id": 6,
+    "zoom": 20,
+    "P(H2)": 0.6303,
+    "franja": "media",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.2818,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 10.7848,
+    "P(Fairy circle)": 0.0041,
+    "P(Fairy fort)": 0.0093,
+    "P(Farm circle)": 0.0005,
+    "P(Flooded dune)": 0.0048,
+    "P(Impact crater)": 0.0612,
+    "P(Jaguey)": 0.2818,
+    "P(Karst)": 0.0023,
+    "P(Salt lake)": 0.0045,
+    "P(Thermokarst)": 0.0011
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8983939,
+     11.9621593
+    ]
+   },
+   "properties": {
+    "prioridad": 38,
+    "id": 47,
+    "zoom": 19,
+    "P(H2)": 0.6144,
+    "franja": "media",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.3298,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 4.3164,
+    "P(Fairy circle)": 0.0005,
+    "P(Fairy fort)": 0.0003,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.002,
+    "P(Impact crater)": 0.0353,
+    "P(Jaguey)": 0.3298,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0172,
+    "P(Thermokarst)": 0.0001
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9357527,
+     12.0582834
+    ]
+   },
+   "properties": {
+    "prioridad": 39,
+    "id": 94,
+    "zoom": 19,
+    "P(H2)": 0.5846,
+    "franja": "media",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.2286,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 7.7061,
+    "P(Fairy circle)": 0.0073,
+    "P(Fairy fort)": 0.0013,
+    "P(Farm circle)": 0.0008,
+    "P(Flooded dune)": 0.0011,
+    "P(Impact crater)": 0.1632,
+    "P(Jaguey)": 0.2286,
+    "P(Karst)": 0.0089,
+    "P(Salt lake)": 0.003,
+    "P(Thermokarst)": 0.0013
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8378803,
+     12.0872767
+    ]
+   },
+   "properties": {
+    "prioridad": 40,
+    "id": 91,
+    "zoom": 19,
+    "P(H2)": 0.5435,
+    "franja": "media",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.4466,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 3.9485,
+    "P(Fairy circle)": 0.0003,
+    "P(Fairy fort)": 0.0007,
+    "P(Farm circle)": 0.0004,
+    "P(Flooded dune)": 0.0001,
+    "P(Impact crater)": 0.007,
+    "P(Jaguey)": 0.4466,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0011,
+    "P(Thermokarst)": 0.0003
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0870964,
+     11.9850239
+    ]
+   },
+   "properties": {
+    "prioridad": 41,
+    "id": 8,
+    "zoom": 19,
+    "P(H2)": 0.4762,
+    "franja": "media",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.2635,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 0.1985,
+    "P(Fairy circle)": 0.0033,
+    "P(Fairy fort)": 0.0017,
+    "P(Farm circle)": 0.0013,
+    "P(Flooded dune)": 0.0005,
+    "P(Impact crater)": 0.2506,
+    "P(Jaguey)": 0.2635,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0014,
+    "P(Thermokarst)": 0.0014
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8117762,
+     12.1242272
+    ]
+   },
+   "properties": {
+    "prioridad": 42,
+    "id": 98,
+    "zoom": 19,
+    "P(H2)": 0.4534,
+    "franja": "media",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.4837,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 4.9573,
+    "P(Fairy circle)": 0.0001,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.0006,
+    "P(Impact crater)": 0.0592,
+    "P(Jaguey)": 0.4837,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0007,
+    "P(Thermokarst)": 0.0022
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0808819,
+     11.9898057
+    ]
+   },
+   "properties": {
+    "prioridad": 43,
+    "id": 13,
+    "zoom": 20,
+    "P(H2)": 0.4523,
+    "franja": "media",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.3433,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 1.0229,
+    "P(Fairy circle)": 0.047,
+    "P(Fairy fort)": 0.0073,
+    "P(Farm circle)": 0.0027,
+    "P(Flooded dune)": 0.0008,
+    "P(Impact crater)": 0.1358,
+    "P(Jaguey)": 0.3433,
+    "P(Karst)": 0.005,
+    "P(Salt lake)": 0.0051,
+    "P(Thermokarst)": 0.0006
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8850193,
+     11.9653106
+    ]
+   },
+   "properties": {
+    "prioridad": 44,
+    "id": 54,
+    "zoom": 19,
+    "P(H2)": 0.41,
+    "franja": "media",
+    "clase predicha": "H2",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.3485,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 5.7784,
+    "P(Fairy circle)": 0.0012,
+    "P(Fairy fort)": 0.0007,
+    "P(Farm circle)": 0.0005,
+    "P(Flooded dune)": 0.0973,
+    "P(Impact crater)": 0.1364,
+    "P(Jaguey)": 0.3485,
+    "P(Karst)": 0.0005,
+    "P(Salt lake)": 0.0046,
+    "P(Thermokarst)": 0.0003
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0912269,
+     11.9883419
+    ]
+   },
+   "properties": {
+    "prioridad": 45,
+    "id": 15,
+    "zoom": 19,
+    "P(H2)": 0.3772,
+    "franja": "media",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.485,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 0.6896,
+    "P(Fairy circle)": 0.0037,
+    "P(Fairy fort)": 0.001,
+    "P(Farm circle)": 0.0012,
+    "P(Flooded dune)": 0.0005,
+    "P(Impact crater)": 0.1287,
+    "P(Jaguey)": 0.485,
+    "P(Karst)": 0.0006,
+    "P(Salt lake)": 0.0011,
+    "P(Thermokarst)": 0.0008
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.4145022,
+     11.9079414
+    ]
+   },
+   "properties": {
+    "prioridad": 46,
+    "id": 77,
+    "zoom": 20,
+    "P(H2)": 0.3681,
+    "franja": "media",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.5342,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 15.4402,
+    "P(Fairy circle)": 0.0081,
+    "P(Fairy fort)": 0.0011,
+    "P(Farm circle)": 0.0008,
+    "P(Flooded dune)": 0.0005,
+    "P(Impact crater)": 0.0834,
+    "P(Jaguey)": 0.5342,
+    "P(Karst)": 0.0011,
+    "P(Salt lake)": 0.0024,
+    "P(Thermokarst)": 0.0004
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0835318,
+     11.9898008
+    ]
+   },
+   "properties": {
+    "prioridad": 47,
+    "id": 14,
+    "zoom": 19,
+    "P(H2)": 0.3555,
+    "franja": "media",
+    "clase predicha": "Impact crater",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.4359,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 0.8441,
+    "P(Fairy circle)": 0.0033,
+    "P(Fairy fort)": 0.0002,
+    "P(Farm circle)": 0.0004,
+    "P(Flooded dune)": 0.0022,
+    "P(Impact crater)": 0.4359,
+    "P(Jaguey)": 0.094,
+    "P(Karst)": 0.1036,
+    "P(Salt lake)": 0.0004,
+    "P(Thermokarst)": 0.0047
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8794763,
+     11.9638482
+    ]
+   },
+   "properties": {
+    "prioridad": 48,
+    "id": 61,
+    "zoom": 20,
+    "P(H2)": 0.3541,
+    "franja": "media",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.4559,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 6.3752,
+    "P(Fairy circle)": 0.0199,
+    "P(Fairy fort)": 0.0175,
+    "P(Farm circle)": 0.0006,
+    "P(Flooded dune)": 0.0362,
+    "P(Impact crater)": 0.0639,
+    "P(Jaguey)": 0.4559,
+    "P(Karst)": 0.0029,
+    "P(Salt lake)": 0.0488,
+    "P(Thermokarst)": 0.0002
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8474943,
+     12.1164777
+    ]
+   },
+   "properties": {
+    "prioridad": 49,
+    "id": 100,
+    "zoom": 20,
+    "P(H2)": 0.3423,
+    "franja": "media",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.438,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 5.8327,
+    "P(Fairy circle)": 0.0122,
+    "P(Fairy fort)": 0.1304,
+    "P(Farm circle)": 0.0021,
+    "P(Flooded dune)": 0.0012,
+    "P(Impact crater)": 0.0314,
+    "P(Jaguey)": 0.438,
+    "P(Karst)": 0.0174,
+    "P(Salt lake)": 0.0124,
+    "P(Thermokarst)": 0.0125
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8930192,
+     11.962055
+    ]
+   },
+   "properties": {
+    "prioridad": 50,
+    "id": 49,
+    "zoom": 19,
+    "P(H2)": 0.338,
+    "franja": "media",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.5108,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 4.9012,
+    "P(Fairy circle)": 0.0001,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0451,
+    "P(Impact crater)": 0.058,
+    "P(Jaguey)": 0.5108,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0476,
+    "P(Thermokarst)": 0.0002
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8818756,
+     11.9656061
+    ]
+   },
+   "properties": {
+    "prioridad": 51,
+    "id": 58,
+    "zoom": 19,
+    "P(H2)": 0.3146,
+    "franja": "media",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.6399,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 6.1216,
+    "P(Fairy circle)": 0.0006,
+    "P(Fairy fort)": 0.0004,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0012,
+    "P(Impact crater)": 0.0359,
+    "P(Jaguey)": 0.6399,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0068,
+    "P(Thermokarst)": 0.0003
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8946325,
+     11.9618078
+    ]
+   },
+   "properties": {
+    "prioridad": 52,
+    "id": 48,
+    "zoom": 19,
+    "P(H2)": 0.2861,
+    "franja": "media",
+    "clase predicha": "Impact crater",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.4171,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 4.7262,
+    "P(Fairy circle)": 0.0001,
+    "P(Fairy fort)": 0.0005,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.1027,
+    "P(Impact crater)": 0.4171,
+    "P(Jaguey)": 0.1032,
+    "P(Karst)": 0.0013,
+    "P(Salt lake)": 0.0882,
+    "P(Thermokarst)": 0.0008
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9093541,
+     11.9565575
+    ]
+   },
+   "properties": {
+    "prioridad": 53,
+    "id": 39,
+    "zoom": 19,
+    "P(H2)": 0.2642,
+    "franja": "media",
+    "clase predicha": "Flooded dune",
+    "clase alternativa": "Flooded dune",
+    "P(alternativa)": 0.3306,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 3.1967,
+    "P(Fairy circle)": 0.0002,
+    "P(Fairy fort)": 0.0021,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.3306,
+    "P(Impact crater)": 0.1235,
+    "P(Jaguey)": 0.1417,
+    "P(Karst)": 0.0014,
+    "P(Salt lake)": 0.136,
+    "P(Thermokarst)": 0.0001
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8825231,
+     11.9666746
+    ]
+   },
+   "properties": {
+    "prioridad": 54,
+    "id": 57,
+    "zoom": 19,
+    "P(H2)": 0.2568,
+    "franja": "media",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.3519,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 6.0589,
+    "P(Fairy circle)": 0.0021,
+    "P(Fairy fort)": 0.0039,
+    "P(Farm circle)": 0.0013,
+    "P(Flooded dune)": 0.017,
+    "P(Impact crater)": 0.3151,
+    "P(Jaguey)": 0.3519,
+    "P(Karst)": 0.0003,
+    "P(Salt lake)": 0.0478,
+    "P(Thermokarst)": 0.0038
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9026958,
+     11.961249
+    ]
+   },
+   "properties": {
+    "prioridad": 55,
+    "id": 44,
+    "zoom": 19,
+    "P(H2)": 0.24,
+    "franja": "media",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.5303,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 3.8513,
+    "P(Fairy circle)": 0.0004,
+    "P(Fairy fort)": 0.0,
+    "P(Farm circle)": 0.0006,
+    "P(Flooded dune)": 0.0035,
+    "P(Impact crater)": 0.2233,
+    "P(Jaguey)": 0.5303,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0018,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0749909,
+     12.0085593
+    ]
+   },
+   "properties": {
+    "prioridad": 56,
+    "id": 22,
+    "zoom": 19,
+    "P(H2)": 0.2361,
+    "franja": "media",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.4883,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 0.392,
+    "P(Fairy circle)": 0.0587,
+    "P(Fairy fort)": 0.0032,
+    "P(Farm circle)": 0.001,
+    "P(Flooded dune)": 0.0012,
+    "P(Impact crater)": 0.173,
+    "P(Jaguey)": 0.4883,
+    "P(Karst)": 0.0279,
+    "P(Salt lake)": 0.0004,
+    "P(Thermokarst)": 0.0101
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.1387245,
+     12.185286
+    ]
+   },
+   "properties": {
+    "prioridad": 57,
+    "id": 115,
+    "zoom": 20,
+    "P(H2)": 0.1976,
+    "franja": "media",
+    "clase predicha": "Fairy circle",
+    "clase alternativa": "Fairy circle",
+    "P(alternativa)": 0.5606,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 9.9936,
+    "P(Fairy circle)": 0.5606,
+    "P(Fairy fort)": 0.0022,
+    "P(Farm circle)": 0.0016,
+    "P(Flooded dune)": 0.0037,
+    "P(Impact crater)": 0.0545,
+    "P(Jaguey)": 0.1652,
+    "P(Karst)": 0.011,
+    "P(Salt lake)": 0.0012,
+    "P(Thermokarst)": 0.0024
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8284041,
+     12.2285318
+    ]
+   },
+   "properties": {
+    "prioridad": 58,
+    "id": 88,
+    "zoom": 19,
+    "P(H2)": 0.1901,
+    "franja": "media",
+    "clase predicha": "Impact crater",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.6085,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 4.4451,
+    "P(Fairy circle)": 0.1174,
+    "P(Fairy fort)": 0.0,
+    "P(Farm circle)": 0.0122,
+    "P(Flooded dune)": 0.0001,
+    "P(Impact crater)": 0.6085,
+    "P(Jaguey)": 0.0402,
+    "P(Karst)": 0.0242,
+    "P(Salt lake)": 0.0004,
+    "P(Thermokarst)": 0.0069
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0258319,
+     12.1704421
+    ]
+   },
+   "properties": {
+    "prioridad": 59,
+    "id": 106,
+    "zoom": 20,
+    "P(H2)": 0.1578,
+    "franja": "media",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.4976,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 1.6792,
+    "P(Fairy circle)": 0.006,
+    "P(Fairy fort)": 0.0014,
+    "P(Farm circle)": 0.0018,
+    "P(Flooded dune)": 0.0192,
+    "P(Impact crater)": 0.2432,
+    "P(Jaguey)": 0.4976,
+    "P(Karst)": 0.0648,
+    "P(Salt lake)": 0.0042,
+    "P(Thermokarst)": 0.004
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8834195,
+     11.9647576
+    ]
+   },
+   "properties": {
+    "prioridad": 60,
+    "id": 56,
+    "zoom": 19,
+    "P(H2)": 0.1569,
+    "franja": "media",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.723,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 5.9495,
+    "P(Fairy circle)": 0.008,
+    "P(Fairy fort)": 0.0021,
+    "P(Farm circle)": 0.0009,
+    "P(Flooded dune)": 0.0684,
+    "P(Impact crater)": 0.0303,
+    "P(Jaguey)": 0.723,
+    "P(Karst)": 0.0002,
+    "P(Salt lake)": 0.0086,
+    "P(Thermokarst)": 0.0017
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.6504508,
+     12.0203309
+    ]
+   },
+   "properties": {
+    "prioridad": 61,
+    "id": 81,
+    "zoom": 20,
+    "P(H2)": 0.0898,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.7798,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 2.9726,
+    "P(Fairy circle)": 0.0095,
+    "P(Fairy fort)": 0.0023,
+    "P(Farm circle)": 0.0007,
+    "P(Flooded dune)": 0.0029,
+    "P(Impact crater)": 0.0606,
+    "P(Jaguey)": 0.7798,
+    "P(Karst)": 0.0286,
+    "P(Salt lake)": 0.0033,
+    "P(Thermokarst)": 0.0225
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9382329,
+     11.9451402
+    ]
+   },
+   "properties": {
+    "prioridad": 62,
+    "id": 35,
+    "zoom": 20,
+    "P(H2)": 0.0752,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.8954,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 0.1825,
+    "P(Fairy circle)": 0.0034,
+    "P(Fairy fort)": 0.0012,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0001,
+    "P(Impact crater)": 0.0194,
+    "P(Jaguey)": 0.8954,
+    "P(Karst)": 0.0042,
+    "P(Salt lake)": 0.0006,
+    "P(Thermokarst)": 0.0004
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8939636,
+     11.9652882
+    ]
+   },
+   "properties": {
+    "prioridad": 63,
+    "id": 51,
+    "zoom": 19,
+    "P(H2)": 0.0507,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.8968,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 4.8068,
+    "P(Fairy circle)": 0.0017,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0003,
+    "P(Flooded dune)": 0.0046,
+    "P(Impact crater)": 0.0396,
+    "P(Jaguey)": 0.8968,
+    "P(Karst)": 0.0,
+    "P(Salt lake)": 0.0056,
+    "P(Thermokarst)": 0.0006
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9831468,
+     11.930357
+    ]
+   },
+   "properties": {
+    "prioridad": 64,
+    "id": 31,
+    "zoom": 19,
+    "P(H2)": 0.0504,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.7391,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 2.8449,
+    "P(Fairy circle)": 0.0047,
+    "P(Fairy fort)": 0.0022,
+    "P(Farm circle)": 0.0025,
+    "P(Flooded dune)": 0.0012,
+    "P(Impact crater)": 0.1052,
+    "P(Jaguey)": 0.7391,
+    "P(Karst)": 0.0007,
+    "P(Salt lake)": 0.0288,
+    "P(Thermokarst)": 0.0652
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8131611,
+     12.2415119
+    ]
+   },
+   "properties": {
+    "prioridad": 65,
+    "id": 89,
+    "zoom": 20,
+    "P(H2)": 0.0448,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.7655,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 4.371,
+    "P(Fairy circle)": 0.0032,
+    "P(Fairy fort)": 0.0006,
+    "P(Farm circle)": 0.001,
+    "P(Flooded dune)": 0.0005,
+    "P(Impact crater)": 0.1391,
+    "P(Jaguey)": 0.7655,
+    "P(Karst)": 0.0014,
+    "P(Salt lake)": 0.0064,
+    "P(Thermokarst)": 0.0376
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.1125489,
+     12.1910412
+    ]
+   },
+   "properties": {
+    "prioridad": 66,
+    "id": 113,
+    "zoom": 20,
+    "P(H2)": 0.0427,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.6653,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 7.7686,
+    "P(Fairy circle)": 0.1059,
+    "P(Fairy fort)": 0.0014,
+    "P(Farm circle)": 0.0009,
+    "P(Flooded dune)": 0.008,
+    "P(Impact crater)": 0.1703,
+    "P(Jaguey)": 0.6653,
+    "P(Karst)": 0.0021,
+    "P(Salt lake)": 0.0013,
+    "P(Thermokarst)": 0.0021
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.1364543,
+     12.1682759
+    ]
+   },
+   "properties": {
+    "prioridad": 67,
+    "id": 114,
+    "zoom": 19,
+    "P(H2)": 0.042,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9417,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 9.2126,
+    "P(Fairy circle)": 0.0001,
+    "P(Fairy fort)": 0.0004,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0001,
+    "P(Impact crater)": 0.0149,
+    "P(Jaguey)": 0.9417,
+    "P(Karst)": 0.0006,
+    "P(Salt lake)": 0.0001,
+    "P(Thermokarst)": 0.0001
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8139247,
+     12.0873189
+    ]
+   },
+   "properties": {
+    "prioridad": 68,
+    "id": 85,
+    "zoom": 20,
+    "P(H2)": 0.0417,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.8618,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 3.8561,
+    "P(Fairy circle)": 0.0263,
+    "P(Fairy fort)": 0.0006,
+    "P(Farm circle)": 0.001,
+    "P(Flooded dune)": 0.0019,
+    "P(Impact crater)": 0.0472,
+    "P(Jaguey)": 0.8618,
+    "P(Karst)": 0.0058,
+    "P(Salt lake)": 0.0008,
+    "P(Thermokarst)": 0.0129
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.428757,
+     11.9293923
+    ]
+   },
+   "properties": {
+    "prioridad": 69,
+    "id": 65,
+    "zoom": 19,
+    "P(H2)": 0.0361,
+    "franja": "baja",
+    "clase predicha": "Thermokarst",
+    "clase alternativa": "Thermokarst",
+    "P(alternativa)": 0.4638,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 15.2079,
+    "P(Fairy circle)": 0.0015,
+    "P(Fairy fort)": 0.0002,
+    "P(Farm circle)": 0.0038,
+    "P(Flooded dune)": 0.0002,
+    "P(Impact crater)": 0.2396,
+    "P(Jaguey)": 0.2228,
+    "P(Karst)": 0.0206,
+    "P(Salt lake)": 0.0115,
+    "P(Thermokarst)": 0.4638
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.5924118,
+     11.9630494
+    ]
+   },
+   "properties": {
+    "prioridad": 70,
+    "id": 64,
+    "zoom": 20,
+    "P(H2)": 0.0355,
+    "franja": "baja",
+    "clase predicha": "Thermokarst",
+    "clase alternativa": "Thermokarst",
+    "P(alternativa)": 0.6131,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 10.9343,
+    "P(Fairy circle)": 0.0075,
+    "P(Fairy fort)": 0.0199,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0806,
+    "P(Impact crater)": 0.0531,
+    "P(Jaguey)": 0.121,
+    "P(Karst)": 0.0619,
+    "P(Salt lake)": 0.0073,
+    "P(Thermokarst)": 0.6131
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.98423,
+     11.9300636
+    ]
+   },
+   "properties": {
+    "prioridad": 71,
+    "id": 30,
+    "zoom": 20,
+    "P(H2)": 0.0327,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.8976,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 2.9353,
+    "P(Fairy circle)": 0.0006,
+    "P(Fairy fort)": 0.0393,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0026,
+    "P(Impact crater)": 0.0012,
+    "P(Jaguey)": 0.8976,
+    "P(Karst)": 0.0006,
+    "P(Salt lake)": 0.0244,
+    "P(Thermokarst)": 0.0009
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.3309618,
+     11.8846268
+    ]
+   },
+   "properties": {
+    "prioridad": 72,
+    "id": 72,
+    "zoom": 19,
+    "P(H2)": 0.0286,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.5945,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 8.4215,
+    "P(Fairy circle)": 0.0076,
+    "P(Fairy fort)": 0.0003,
+    "P(Farm circle)": 0.0016,
+    "P(Flooded dune)": 0.0005,
+    "P(Impact crater)": 0.321,
+    "P(Jaguey)": 0.5945,
+    "P(Karst)": 0.0005,
+    "P(Salt lake)": 0.0317,
+    "P(Thermokarst)": 0.0138
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.6662004,
+     12.2894522
+    ]
+   },
+   "properties": {
+    "prioridad": 73,
+    "id": 87,
+    "zoom": 20,
+    "P(H2)": 0.0278,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.7403,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 3.0793,
+    "P(Fairy circle)": 0.0109,
+    "P(Fairy fort)": 0.1089,
+    "P(Farm circle)": 0.0018,
+    "P(Flooded dune)": 0.0002,
+    "P(Impact crater)": 0.0086,
+    "P(Jaguey)": 0.7403,
+    "P(Karst)": 0.0872,
+    "P(Salt lake)": 0.0039,
+    "P(Thermokarst)": 0.0103
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.4455119,
+     11.9312739
+    ]
+   },
+   "properties": {
+    "prioridad": 74,
+    "id": 69,
+    "zoom": 19,
+    "P(H2)": 0.0276,
+    "franja": "baja",
+    "clase predicha": "Impact crater",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.5952,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 16.2553,
+    "P(Fairy circle)": 0.0127,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0041,
+    "P(Flooded dune)": 0.0006,
+    "P(Impact crater)": 0.5952,
+    "P(Jaguey)": 0.3474,
+    "P(Karst)": 0.0083,
+    "P(Salt lake)": 0.0018,
+    "P(Thermokarst)": 0.0021
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8715842,
+     12.0423377
+    ]
+   },
+   "properties": {
+    "prioridad": 75,
+    "id": 95,
+    "zoom": 19,
+    "P(H2)": 0.0244,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9106,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 5.2811,
+    "P(Fairy circle)": 0.0034,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0001,
+    "P(Impact crater)": 0.0541,
+    "P(Jaguey)": 0.9106,
+    "P(Karst)": 0.0068,
+    "P(Salt lake)": 0.0002,
+    "P(Thermokarst)": 0.0002
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9821956,
+     11.9340381
+    ]
+   },
+   "properties": {
+    "prioridad": 76,
+    "id": 32,
+    "zoom": 19,
+    "P(H2)": 0.0224,
+    "franja": "baja",
+    "clase predicha": "Impact crater",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.475,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 2.4447,
+    "P(Fairy circle)": 0.0436,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0031,
+    "P(Flooded dune)": 0.0003,
+    "P(Impact crater)": 0.475,
+    "P(Jaguey)": 0.4378,
+    "P(Karst)": 0.0032,
+    "P(Salt lake)": 0.0091,
+    "P(Thermokarst)": 0.0055
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8695632,
+     12.1477696
+    ]
+   },
+   "properties": {
+    "prioridad": 77,
+    "id": 102,
+    "zoom": 20,
+    "P(H2)": 0.0217,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.8735,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 3.5825,
+    "P(Fairy circle)": 0.0044,
+    "P(Fairy fort)": 0.019,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0021,
+    "P(Impact crater)": 0.0032,
+    "P(Jaguey)": 0.8735,
+    "P(Karst)": 0.0675,
+    "P(Salt lake)": 0.0014,
+    "P(Thermokarst)": 0.0069
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.6311943,
+     12.0247087
+    ]
+   },
+   "properties": {
+    "prioridad": 78,
+    "id": 79,
+    "zoom": 19,
+    "P(H2)": 0.0206,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.7875,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 2.8846,
+    "P(Fairy circle)": 0.0014,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0004,
+    "P(Flooded dune)": 0.0042,
+    "P(Impact crater)": 0.1826,
+    "P(Jaguey)": 0.7875,
+    "P(Karst)": 0.0014,
+    "P(Salt lake)": 0.0006,
+    "P(Thermokarst)": 0.0011
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0582941,
+     12.2013316
+    ]
+   },
+   "properties": {
+    "prioridad": 79,
+    "id": 110,
+    "zoom": 20,
+    "P(H2)": 0.0161,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9533,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 2.8328,
+    "P(Fairy circle)": 0.013,
+    "P(Fairy fort)": 0.0092,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0001,
+    "P(Impact crater)": 0.0071,
+    "P(Jaguey)": 0.9533,
+    "P(Karst)": 0.001,
+    "P(Salt lake)": 0.0001,
+    "P(Thermokarst)": 0.0001
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9110482,
+     11.9542515
+    ]
+   },
+   "properties": {
+    "prioridad": 80,
+    "id": 38,
+    "zoom": 18,
+    "P(H2)": 0.015,
+    "franja": "baja",
+    "clase predicha": "Flooded dune",
+    "clase alternativa": "Flooded dune",
+    "P(alternativa)": 0.4471,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 3.0116,
+    "P(Fairy circle)": 0.0002,
+    "P(Fairy fort)": 0.0004,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.4471,
+    "P(Impact crater)": 0.3169,
+    "P(Jaguey)": 0.1785,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0413,
+    "P(Thermokarst)": 0.0002
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.097812,
+     11.9997709
+    ]
+   },
+   "properties": {
+    "prioridad": 81,
+    "id": 20,
+    "zoom": 19,
+    "P(H2)": 0.0141,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9421,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 1.3993,
+    "P(Fairy circle)": 0.0001,
+    "P(Fairy fort)": 0.0,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0,
+    "P(Impact crater)": 0.0433,
+    "P(Jaguey)": 0.9421,
+    "P(Karst)": 0.0,
+    "P(Salt lake)": 0.0001,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0249926,
+     12.2271892
+    ]
+   },
+   "properties": {
+    "prioridad": 82,
+    "id": 112,
+    "zoom": 19,
+    "P(H2)": 0.0133,
+    "franja": "baja",
+    "clase predicha": "Impact crater",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.5507,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 1.6691,
+    "P(Fairy circle)": 0.0026,
+    "P(Fairy fort)": 0.0017,
+    "P(Farm circle)": 0.0006,
+    "P(Flooded dune)": 0.0002,
+    "P(Impact crater)": 0.5507,
+    "P(Jaguey)": 0.4199,
+    "P(Karst)": 0.0012,
+    "P(Salt lake)": 0.004,
+    "P(Thermokarst)": 0.0059
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.6447671,
+     12.0159403
+    ]
+   },
+   "properties": {
+    "prioridad": 83,
+    "id": 80,
+    "zoom": 19,
+    "P(H2)": 0.0102,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9688,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 3.4107,
+    "P(Fairy circle)": 0.0005,
+    "P(Fairy fort)": 0.0,
+    "P(Farm circle)": 0.0007,
+    "P(Flooded dune)": 0.0009,
+    "P(Impact crater)": 0.0173,
+    "P(Jaguey)": 0.9688,
+    "P(Karst)": 0.0007,
+    "P(Salt lake)": 0.0002,
+    "P(Thermokarst)": 0.0005
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8797627,
+     11.9641779
+    ]
+   },
+   "properties": {
+    "prioridad": 84,
+    "id": 60,
+    "zoom": 20,
+    "P(H2)": 0.0083,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.8809,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 6.345,
+    "P(Fairy circle)": 0.0115,
+    "P(Fairy fort)": 0.0105,
+    "P(Farm circle)": 0.0003,
+    "P(Flooded dune)": 0.0108,
+    "P(Impact crater)": 0.0186,
+    "P(Jaguey)": 0.8809,
+    "P(Karst)": 0.0002,
+    "P(Salt lake)": 0.0588,
+    "P(Thermokarst)": 0.0002
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.6828629,
+     12.0410462
+    ]
+   },
+   "properties": {
+    "prioridad": 85,
+    "id": 83,
+    "zoom": 19,
+    "P(H2)": 0.0078,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.6948,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 4.119,
+    "P(Fairy circle)": 0.0595,
+    "P(Fairy fort)": 0.0,
+    "P(Farm circle)": 0.0015,
+    "P(Flooded dune)": 0.0018,
+    "P(Impact crater)": 0.2141,
+    "P(Jaguey)": 0.6948,
+    "P(Karst)": 0.0151,
+    "P(Salt lake)": 0.0002,
+    "P(Thermokarst)": 0.0051
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.4984676,
+     11.920088
+    ]
+   },
+   "properties": {
+    "prioridad": 86,
+    "id": 74,
+    "zoom": 20,
+    "P(H2)": 0.0066,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9556,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 21.2931,
+    "P(Fairy circle)": 0.0005,
+    "P(Fairy fort)": 0.0009,
+    "P(Farm circle)": 0.0005,
+    "P(Flooded dune)": 0.0001,
+    "P(Impact crater)": 0.0249,
+    "P(Jaguey)": 0.9556,
+    "P(Karst)": 0.0108,
+    "P(Salt lake)": 0.0001,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8591891,
+     12.343024
+    ]
+   },
+   "properties": {
+    "prioridad": 87,
+    "id": 104,
+    "zoom": 19,
+    "P(H2)": 0.0056,
+    "franja": "baja",
+    "clase predicha": "Impact crater",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.8349,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 12.3048,
+    "P(Fairy circle)": 0.0003,
+    "P(Fairy fort)": 0.0006,
+    "P(Farm circle)": 0.0003,
+    "P(Flooded dune)": 0.0073,
+    "P(Impact crater)": 0.8349,
+    "P(Jaguey)": 0.1465,
+    "P(Karst)": 0.0022,
+    "P(Salt lake)": 0.0008,
+    "P(Thermokarst)": 0.0016
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8952412,
+     11.9654971
+    ]
+   },
+   "properties": {
+    "prioridad": 88,
+    "id": 50,
+    "zoom": 19,
+    "P(H2)": 0.005,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9512,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 4.6696,
+    "P(Fairy circle)": 0.0012,
+    "P(Fairy fort)": 0.0,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0175,
+    "P(Impact crater)": 0.021,
+    "P(Jaguey)": 0.9512,
+    "P(Karst)": 0.0,
+    "P(Salt lake)": 0.0037,
+    "P(Thermokarst)": 0.0001
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.5915816,
+     11.9483487
+    ]
+   },
+   "properties": {
+    "prioridad": 89,
+    "id": 63,
+    "zoom": 19,
+    "P(H2)": 0.004,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.8598,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 12.3959,
+    "P(Fairy circle)": 0.0018,
+    "P(Fairy fort)": 0.0141,
+    "P(Farm circle)": 0.0011,
+    "P(Flooded dune)": 0.0315,
+    "P(Impact crater)": 0.0416,
+    "P(Jaguey)": 0.8598,
+    "P(Karst)": 0.0334,
+    "P(Salt lake)": 0.0038,
+    "P(Thermokarst)": 0.0088
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.6755425,
+     12.0394568
+    ]
+   },
+   "properties": {
+    "prioridad": 90,
+    "id": 84,
+    "zoom": 20,
+    "P(H2)": 0.0039,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9775,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 3.3713,
+    "P(Fairy circle)": 0.0004,
+    "P(Fairy fort)": 0.0085,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0,
+    "P(Impact crater)": 0.0033,
+    "P(Jaguey)": 0.9775,
+    "P(Karst)": 0.0055,
+    "P(Salt lake)": 0.0005,
+    "P(Thermokarst)": 0.0003
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0919497,
+     11.9900715
+    ]
+   },
+   "properties": {
+    "prioridad": 91,
+    "id": 16,
+    "zoom": 19,
+    "P(H2)": 0.0037,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9197,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 0.6792,
+    "P(Fairy circle)": 0.0001,
+    "P(Fairy fort)": 0.0003,
+    "P(Farm circle)": 0.0005,
+    "P(Flooded dune)": 0.0001,
+    "P(Impact crater)": 0.0745,
+    "P(Jaguey)": 0.9197,
+    "P(Karst)": 0.0,
+    "P(Salt lake)": 0.0009,
+    "P(Thermokarst)": 0.0001
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9774956,
+     11.9374167
+    ]
+   },
+   "properties": {
+    "prioridad": 92,
+    "id": 33,
+    "zoom": 19,
+    "P(H2)": 0.0029,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9922,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 1.8582,
+    "P(Fairy circle)": 0.0001,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0001,
+    "P(Impact crater)": 0.0043,
+    "P(Jaguey)": 0.9922,
+    "P(Karst)": 0.0,
+    "P(Salt lake)": 0.0002,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0967762,
+     11.9934668
+    ]
+   },
+   "properties": {
+    "prioridad": 93,
+    "id": 18,
+    "zoom": 21,
+    "P(H2)": 0.0027,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.8259,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 0.7017,
+    "P(Fairy circle)": 0.0068,
+    "P(Fairy fort)": 0.1099,
+    "P(Farm circle)": 0.0006,
+    "P(Flooded dune)": 0.0081,
+    "P(Impact crater)": 0.0064,
+    "P(Jaguey)": 0.8259,
+    "P(Karst)": 0.0371,
+    "P(Salt lake)": 0.0012,
+    "P(Thermokarst)": 0.0014
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0736847,
+     12.0990135
+    ]
+   },
+   "properties": {
+    "prioridad": 94,
+    "id": 117,
+    "zoom": 20,
+    "P(H2)": 0.0025,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.5969,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 2.1301,
+    "P(Fairy circle)": 0.0159,
+    "P(Fairy fort)": 0.0002,
+    "P(Farm circle)": 0.0008,
+    "P(Flooded dune)": 0.0003,
+    "P(Impact crater)": 0.375,
+    "P(Jaguey)": 0.5969,
+    "P(Karst)": 0.0073,
+    "P(Salt lake)": 0.0006,
+    "P(Thermokarst)": 0.0004
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.4095968,
+     11.920388
+    ]
+   },
+   "properties": {
+    "prioridad": 95,
+    "id": 76,
+    "zoom": 19,
+    "P(H2)": 0.0023,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9832,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 14.6726,
+    "P(Fairy circle)": 0.0002,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.0001,
+    "P(Impact crater)": 0.0131,
+    "P(Jaguey)": 0.9832,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0006,
+    "P(Thermokarst)": 0.0003
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.428227,
+     11.9338342
+    ]
+   },
+   "properties": {
+    "prioridad": 96,
+    "id": 75,
+    "zoom": 20,
+    "P(H2)": 0.0019,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.924,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 14.7881,
+    "P(Fairy circle)": 0.0034,
+    "P(Fairy fort)": 0.0003,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0003,
+    "P(Impact crater)": 0.0653,
+    "P(Jaguey)": 0.924,
+    "P(Karst)": 0.0032,
+    "P(Salt lake)": 0.0008,
+    "P(Thermokarst)": 0.0008
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0763449,
+     12.0870878
+    ]
+   },
+   "properties": {
+    "prioridad": 97,
+    "id": 116,
+    "zoom": 20,
+    "P(H2)": 0.0017,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.6318,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 1.9546,
+    "P(Fairy circle)": 0.0075,
+    "P(Fairy fort)": 0.0005,
+    "P(Farm circle)": 0.0018,
+    "P(Flooded dune)": 0.0013,
+    "P(Impact crater)": 0.1835,
+    "P(Jaguey)": 0.6318,
+    "P(Karst)": 0.1334,
+    "P(Salt lake)": 0.0024,
+    "P(Thermokarst)": 0.0362
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0265803,
+     12.2193961
+    ]
+   },
+   "properties": {
+    "prioridad": 98,
+    "id": 111,
+    "zoom": 19,
+    "P(H2)": 0.0016,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.8128,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 0.7912,
+    "P(Fairy circle)": 0.0001,
+    "P(Fairy fort)": 0.0033,
+    "P(Farm circle)": 0.0017,
+    "P(Flooded dune)": 0.0001,
+    "P(Impact crater)": 0.1226,
+    "P(Jaguey)": 0.8128,
+    "P(Karst)": 0.0163,
+    "P(Salt lake)": 0.0006,
+    "P(Thermokarst)": 0.0409
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0517172,
+     12.1303147
+    ]
+   },
+   "properties": {
+    "prioridad": 99,
+    "id": 119,
+    "zoom": 20,
+    "P(H2)": 0.0015,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9956,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 2.401,
+    "P(Fairy circle)": 0.0005,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0,
+    "P(Impact crater)": 0.002,
+    "P(Jaguey)": 0.9956,
+    "P(Karst)": 0.0,
+    "P(Salt lake)": 0.0001,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.7956554,
+     12.1178079
+    ]
+   },
+   "properties": {
+    "prioridad": 100,
+    "id": 97,
+    "zoom": 20,
+    "P(H2)": 0.0013,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9319,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 6.4174,
+    "P(Fairy circle)": 0.001,
+    "P(Fairy fort)": 0.0012,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0003,
+    "P(Impact crater)": 0.0591,
+    "P(Jaguey)": 0.9319,
+    "P(Karst)": 0.0034,
+    "P(Salt lake)": 0.0007,
+    "P(Thermokarst)": 0.0009
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0567346,
+     12.1296657
+    ]
+   },
+   "properties": {
+    "prioridad": 101,
+    "id": 118,
+    "zoom": 20,
+    "P(H2)": 0.0011,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9468,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 2.493,
+    "P(Fairy circle)": 0.004,
+    "P(Fairy fort)": 0.0003,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0034,
+    "P(Impact crater)": 0.0332,
+    "P(Jaguey)": 0.9468,
+    "P(Karst)": 0.0084,
+    "P(Salt lake)": 0.0014,
+    "P(Thermokarst)": 0.0013
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.7539024,
+     12.2384277
+    ]
+   },
+   "properties": {
+    "prioridad": 102,
+    "id": 90,
+    "zoom": 20,
+    "P(H2)": 0.001,
+    "franja": "baja",
+    "clase predicha": "Karst",
+    "clase alternativa": "Karst",
+    "P(alternativa)": 0.4179,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 2.1456,
+    "P(Fairy circle)": 0.1966,
+    "P(Fairy fort)": 0.0007,
+    "P(Farm circle)": 0.0006,
+    "P(Flooded dune)": 0.0008,
+    "P(Impact crater)": 0.0027,
+    "P(Jaguey)": 0.3794,
+    "P(Karst)": 0.4179,
+    "P(Salt lake)": 0.0002,
+    "P(Thermokarst)": 0.0002
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.5111798,
+     11.9196766
+    ]
+   },
+   "properties": {
+    "prioridad": 103,
+    "id": 73,
+    "zoom": 19,
+    "P(H2)": 0.0008,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.939,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 20.3075,
+    "P(Fairy circle)": 0.0013,
+    "P(Fairy fort)": 0.0003,
+    "P(Farm circle)": 0.0004,
+    "P(Flooded dune)": 0.0015,
+    "P(Impact crater)": 0.0437,
+    "P(Jaguey)": 0.939,
+    "P(Karst)": 0.0022,
+    "P(Salt lake)": 0.0021,
+    "P(Thermokarst)": 0.0087
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0690736,
+     12.0139075
+    ]
+   },
+   "properties": {
+    "prioridad": 104,
+    "id": 23,
+    "zoom": 20,
+    "P(H2)": 0.0007,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9823,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 0.8377,
+    "P(Fairy circle)": 0.0,
+    "P(Fairy fort)": 0.0011,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0006,
+    "P(Impact crater)": 0.0025,
+    "P(Jaguey)": 0.9823,
+    "P(Karst)": 0.0043,
+    "P(Salt lake)": 0.0071,
+    "P(Thermokarst)": 0.001
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.4435612,
+     11.9272756
+    ]
+   },
+   "properties": {
+    "prioridad": 105,
+    "id": 68,
+    "zoom": 20,
+    "P(H2)": 0.0007,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.974,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 16.4337,
+    "P(Fairy circle)": 0.0011,
+    "P(Fairy fort)": 0.0,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0003,
+    "P(Impact crater)": 0.0199,
+    "P(Jaguey)": 0.974,
+    "P(Karst)": 0.0029,
+    "P(Salt lake)": 0.0003,
+    "P(Thermokarst)": 0.0005
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0348808,
+     12.1676847
+    ]
+   },
+   "properties": {
+    "prioridad": 106,
+    "id": 107,
+    "zoom": 19,
+    "P(H2)": 0.0007,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9861,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 1.9283,
+    "P(Fairy circle)": 0.0,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.0,
+    "P(Impact crater)": 0.0127,
+    "P(Jaguey)": 0.9861,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0001,
+    "P(Thermokarst)": 0.0001
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9362241,
+     11.9434334
+    ]
+   },
+   "properties": {
+    "prioridad": 107,
+    "id": 37,
+    "zoom": 19,
+    "P(H2)": 0.0006,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9955,
+    "solapa_con_entrenamiento": "Jaguey 584",
+    "dist_jaguey_km": 0.1143,
+    "P(Fairy circle)": 0.0,
+    "P(Fairy fort)": 0.0,
+    "P(Farm circle)": 0.0003,
+    "P(Flooded dune)": 0.0,
+    "P(Impact crater)": 0.0034,
+    "P(Jaguey)": 0.9955,
+    "P(Karst)": 0.0,
+    "P(Salt lake)": 0.0001,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8399154,
+     12.3490242
+    ]
+   },
+   "properties": {
+    "prioridad": 108,
+    "id": 105,
+    "zoom": 20,
+    "P(H2)": 0.0006,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.8315,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 10.9578,
+    "P(Fairy circle)": 0.0011,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0003,
+    "P(Impact crater)": 0.0813,
+    "P(Jaguey)": 0.8315,
+    "P(Karst)": 0.0845,
+    "P(Salt lake)": 0.0002,
+    "P(Thermokarst)": 0.0003
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.9033629,
+     12.0141933
+    ]
+   },
+   "properties": {
+    "prioridad": 109,
+    "id": 120,
+    "zoom": 20,
+    "P(H2)": 0.0005,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9508,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 6.8617,
+    "P(Fairy circle)": 0.0022,
+    "P(Fairy fort)": 0.0,
+    "P(Farm circle)": 0.0002,
+    "P(Flooded dune)": 0.0002,
+    "P(Impact crater)": 0.043,
+    "P(Jaguey)": 0.9508,
+    "P(Karst)": 0.0027,
+    "P(Salt lake)": 0.0001,
+    "P(Thermokarst)": 0.0004
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0300272,
+     12.1646669
+    ]
+   },
+   "properties": {
+    "prioridad": 110,
+    "id": 108,
+    "zoom": 20,
+    "P(H2)": 0.0004,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9845,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 1.6894,
+    "P(Fairy circle)": 0.002,
+    "P(Fairy fort)": 0.0006,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0008,
+    "P(Impact crater)": 0.0081,
+    "P(Jaguey)": 0.9845,
+    "P(Karst)": 0.003,
+    "P(Salt lake)": 0.0002,
+    "P(Thermokarst)": 0.0003
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.6270645,
+     12.03181
+    ]
+   },
+   "properties": {
+    "prioridad": 111,
+    "id": 78,
+    "zoom": 20,
+    "P(H2)": 0.0004,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9793,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 2.5864,
+    "P(Fairy circle)": 0.0002,
+    "P(Fairy fort)": 0.0014,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0004,
+    "P(Impact crater)": 0.0017,
+    "P(Jaguey)": 0.9793,
+    "P(Karst)": 0.0053,
+    "P(Salt lake)": 0.0008,
+    "P(Thermokarst)": 0.0104
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0856131,
+     11.9883225
+    ]
+   },
+   "properties": {
+    "prioridad": 112,
+    "id": 9,
+    "zoom": 21,
+    "P(H2)": 0.0003,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9152,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 0.597,
+    "P(Fairy circle)": 0.003,
+    "P(Fairy fort)": 0.0249,
+    "P(Farm circle)": 0.0004,
+    "P(Flooded dune)": 0.0013,
+    "P(Impact crater)": 0.027,
+    "P(Jaguey)": 0.9152,
+    "P(Karst)": 0.026,
+    "P(Salt lake)": 0.0016,
+    "P(Thermokarst)": 0.0002
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0859424,
+     11.9886604
+    ]
+   },
+   "properties": {
+    "prioridad": 113,
+    "id": 10,
+    "zoom": 21,
+    "P(H2)": 0.0002,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.87,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 0.6216,
+    "P(Fairy circle)": 0.0093,
+    "P(Fairy fort)": 0.0005,
+    "P(Farm circle)": 0.0033,
+    "P(Flooded dune)": 0.0449,
+    "P(Impact crater)": 0.0038,
+    "P(Jaguey)": 0.87,
+    "P(Karst)": 0.0644,
+    "P(Salt lake)": 0.0032,
+    "P(Thermokarst)": 0.0004
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0451768,
+     12.2124591
+    ]
+   },
+   "properties": {
+    "prioridad": 114,
+    "id": 109,
+    "zoom": 20,
+    "P(H2)": 0.0001,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.996,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 1.9959,
+    "P(Fairy circle)": 0.0003,
+    "P(Fairy fort)": 0.0002,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.0002,
+    "P(Impact crater)": 0.0004,
+    "P(Jaguey)": 0.996,
+    "P(Karst)": 0.0024,
+    "P(Salt lake)": 0.0,
+    "P(Thermokarst)": 0.0005
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.0766181,
+     12.0348745
+    ]
+   },
+   "properties": {
+    "prioridad": 115,
+    "id": 28,
+    "zoom": 20,
+    "P(H2)": 0.0,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9925,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 2.3599,
+    "P(Fairy circle)": 0.0001,
+    "P(Fairy fort)": 0.0,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.0,
+    "P(Impact crater)": 0.0008,
+    "P(Jaguey)": 0.9925,
+    "P(Karst)": 0.0063,
+    "P(Salt lake)": 0.0,
+    "P(Thermokarst)": 0.0001
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.6906545,
+     12.0374515
+    ]
+   },
+   "properties": {
+    "prioridad": 116,
+    "id": 82,
+    "zoom": 19,
+    "P(H2)": 0.0,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9997,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 5.0239,
+    "P(Fairy circle)": 0.0,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.0,
+    "P(Impact crater)": 0.0001,
+    "P(Jaguey)": 0.9997,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8746612,
+     12.3301889
+    ]
+   },
+   "properties": {
+    "prioridad": 117,
+    "id": 103,
+    "zoom": 19,
+    "P(H2)": 0.0,
+    "franja": "baja",
+    "clase predicha": "Impact crater",
+    "clase alternativa": "Impact crater",
+    "P(alternativa)": 0.9403,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 13.1991,
+    "P(Fairy circle)": 0.0,
+    "P(Fairy fort)": 0.0,
+    "P(Farm circle)": 0.0001,
+    "P(Flooded dune)": 0.0002,
+    "P(Impact crater)": 0.9403,
+    "P(Jaguey)": 0.0556,
+    "P(Karst)": 0.0015,
+    "P(Salt lake)": 0.0001,
+    "P(Thermokarst)": 0.0022
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.8696605,
+     12.0411883
+    ]
+   },
+   "properties": {
+    "prioridad": 118,
+    "id": 96,
+    "zoom": 20,
+    "P(H2)": 0.0,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9987,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 5.1137,
+    "P(Fairy circle)": 0.0003,
+    "P(Fairy fort)": 0.0001,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.0,
+    "P(Impact crater)": 0.0003,
+    "P(Jaguey)": 0.9987,
+    "P(Karst)": 0.0001,
+    "P(Salt lake)": 0.0002,
+    "P(Thermokarst)": 0.0002
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.4126972,
+     11.9910867
+    ]
+   },
+   "properties": {
+    "prioridad": 119,
+    "id": 71,
+    "zoom": 19,
+    "P(H2)": 0.0,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9999,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 9.2263,
+    "P(Fairy circle)": 0.0,
+    "P(Fairy fort)": 0.0,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.0,
+    "P(Impact crater)": 0.0,
+    "P(Jaguey)": 0.9999,
+    "P(Karst)": 0.0,
+    "P(Salt lake)": 0.0001,
+    "P(Thermokarst)": 0.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.6702317,
+     12.2883953
+    ]
+   },
+   "properties": {
+    "prioridad": 120,
+    "id": 86,
+    "zoom": 20,
+    "P(H2)": 0.0,
+    "franja": "baja",
+    "clase predicha": "Jaguey",
+    "clase alternativa": "Jaguey",
+    "P(alternativa)": 0.9994,
+    "solapa_con_entrenamiento": "",
+    "dist_jaguey_km": 3.2049,
+    "P(Fairy circle)": 0.0,
+    "P(Fairy fort)": 0.0,
+    "P(Farm circle)": 0.0,
+    "P(Flooded dune)": 0.0,
+    "P(Impact crater)": 0.0,
+    "P(Jaguey)": 0.9994,
+    "P(Karst)": 0.0005,
+    "P(Salt lake)": 0.0,
+    "P(Thermokarst)": 0.0
+   }
+  }
+ ]
+}

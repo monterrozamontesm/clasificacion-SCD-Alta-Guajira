@@ -1,0 +1,105 @@
+{
+ "particion_hash": "8e75c9024a42a82e01ee3464a787604b7b6b5df326e5e146b5e0be5281344997",
+ "variante": "yolov8n-cls",
+ "huella_modelo_final": "d4e7b2a070a5b2291b12021a7d6ff2aec356ccdab4ae9fbcf152a836ddc6bfb2",
+ "epocas_modelo_final": {
+  "1": 16,
+  "2": 7
+ },
+ "temperatura": 1.0266770730478325,
+ "ece_validacion_cruzada": {
+  "sin_calibrar": 0.029612328016032016,
+  "calibrado": 0.034189171911251835
+ },
+ "holdout": {
+  "F1-macro (10 clases)": {
+   "valor": 0.9187050960735172,
+   "ic95": [
+    0.8657835953262425,
+    0.9662326940345516
+   ]
+  },
+  "Exactitud balanceada": {
+   "valor": 0.9200000000000002,
+   "ic95": [
+    0.8709849386724388,
+    0.968888888888889
+   ]
+  },
+  "F1 de H2": {
+   "valor": 0.8571428571428571,
+   "ic95": [
+    0.6666666666666666,
+    1.0
+   ]
+  },
+  "PR-AUC de H2": {
+   "valor": 0.9488235294117647,
+   "ic95": [
+    0.8222222222222224,
+    1.0
+   ]
+  }
+ },
+ "holdout_f1_macro_9_clases": 0.9096723289705745,
+ "contexto_f1_macro": {
+  "original": 0.936,
+  "sin color (grises)": 0.7668,
+  "solo el centro": 0.7168,
+  "solo el entorno": 0.8261,
+  "centro desenfocado": 0.839,
+  "entorno desenfocado": 0.7043
+ },
+ "montajes": {
+  "H2 sobre paisaje de otra H2 (control)": {
+   "montajes": 532,
+   "predichos H2": 0.844,
+   "predichos Jagüey": 0.0019,
+   "P(H2) promedio": 0.7890999913215637,
+   "P(Jagüey) promedio": 0.008899999782443047
+  },
+  "H2 sobre paisaje guajiro": {
+   "montajes": 512,
+   "predichos H2": 0.3301,
+   "predichos Jagüey": 0.4922,
+   "P(H2) promedio": 0.32089999318122864,
+   "P(Jagüey) promedio": 0.421999990940094
+  },
+  "Jagüey sobre paisaje de otro Jagüey (control)": {
+   "montajes": 474,
+   "predichos H2": 0.0105,
+   "predichos Jagüey": 0.943,
+   "P(H2) promedio": 0.015200000256299973,
+   "P(Jagüey) promedio": 0.8949000239372253
+  },
+  "Jagüey sobre paisaje de una H2": {
+   "montajes": 512,
+   "predichos H2": 0.3203,
+   "predichos Jagüey": 0.4492,
+   "P(H2) promedio": 0.28940001130104065,
+   "P(Jagüey) promedio": 0.3874000012874603
+  }
+ },
+ "franjas": {
+  "alta_desde": 0.7095863429023155,
+  "media_desde": 0.09206740356668655
+ },
+ "region_nueva": {
+  "51°N 42°E": {
+   "recall_conocida": 0.3,
+   "recall_nueva": 0.0
+  },
+  "21°S 18°E": {
+   "recall_conocida": 1.0,
+   "recall_nueva": 0.5333333333333333
+  },
+  "16°S 45°O": {
+   "recall_conocida": 1.0,
+   "recall_nueva": 0.5454545454545454
+  },
+  "34°N 79°O": {
+   "recall_conocida": 0.6666666666666666,
+   "recall_nueva": 0.0
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "particion_hash": "8e75c9024a42a82e01ee3464a787604b7b6b5df326e5e146b5e0be5281344997",
+ "variante_elegida": "yolov8n-cls",
+ "clases": [
+  "Fairy circle",
+  "Fairy fort",
+  "Farm circle",
+  "Flooded dune",
+  "H2",
+  "Impact crater",
+  "Jaguey",
+  "Karst",
+  "Salt lake",
+  "Thermokarst"
+ ],
+ "clases_comparables": [
+  "Fairy fort",
+  "Farm circle",
+  "Flooded dune",
+  "H2",
+  "Impact crater",
+  "Jaguey",
+  "Karst",
+  "Salt lake",
+  "Thermokarst"
+ ],
+ "clases_aparte": [
+  "Fairy circle"
+ ],
+ "mediana_mejor_epoca": {
+  "yolov8n-cls": {
+   "etapa_1": 16.0,
+   "etapa_2": 7.0
+  },
+  "yolov8s-cls": {
+   "etapa_1": 9.0,
+   "etapa_2": 9.0
+  },
+  "resnet18": {
+   "etapa_1": 9.0,
+   "etapa_2": 10.0
+  }
+ },
+ "protocolo": {
+  "imgsz": 224,
+  "batch": 16,
+  "paciencia": 15,
+  "etapa_1": {
+   "epocas_max": 20,
+   "lr": 0.001
+  },
+  "etapa_2": {
+   "epocas_max": 80,
+   "lr": 0.0001
+  },
+  "semilla": 42
+ },
+ "f1_macro": {
+  "yolov8n-cls": {
+   "media": 0.9360012402177595,
+   "desviacion": 0.03997515918825532
+  },
+  "yolov8s-cls": {
+   "media": 0.9463207774830036,
+   "desviacion": 0.032760586433707904
+  },
+  "resnet18": {
+   "media": 0.9422803619797321,
+   "desviacion": 0.03374830667010617
+  }
+ }
+}
