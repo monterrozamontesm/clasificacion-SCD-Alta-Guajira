@@ -26,10 +26,10 @@ El Anexo A del trabajo de grado (Tabla A1) indica qué *notebook* corresponde a 
    - `dataset/`: las 600 imágenes en sus subcarpetas por clase y el CSV maestro;
    - `dataset_aplicacion/`: las 120 imágenes y su CSV;
    - `salidas/`: la carpeta incluida en este repositorio;
-   - los seis *notebooks* de `fases_2_3_modelamiento/`.
+   - los cinco *notebooks* de `fases_2_3_modelamiento/`.
 3. **Fases 2 y 3, en Google Colaboratory.** Abrir los *notebooks* en orden, de `01` a `05`, con una GPU T4. Cada uno comprueba al iniciar que la partición no haya cambiado (suma de verificación SHA-256).
 
-Como `salidas/` ya trae los resultados de la corrida del trabajo, los *notebooks* 05 y 06 pueden ejecutarse directamente para revisar la priorización y regenerar las figuras.
+Como `salidas/` ya trae los resultados de la corrida del trabajo, el *notebook* 05 puede ejecutarse directamente para revisar la priorización.
 
 ## Lo que no se incluye en el repositorio
 
