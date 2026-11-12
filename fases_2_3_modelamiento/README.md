@@ -11,7 +11,7 @@ Seis *notebooks* de Google Colaboratory que se ejecutan en orden. Se comunican e
 | `03_modelamiento.ipynb` | 3.2.3 | Entrena y compara YOLOv8n-cls, YOLOv8s-cls y ResNet-18 en validación cruzada | `oof_predicciones.csv`, `historia_entrenamiento.csv`, `resumen_modelamiento.json`, `modelos/` |
 | `04_interpretaciones.ipynb` | 3.2.4 a 3.2.6 | Entrena el modelo final, lo calibra, lo evalúa en el holdout, hace las pruebas de contexto y de región nueva y fija las franjas | `modelo_final.pt`, `holdout_predicciones.csv`, `calibracion.json`, `umbrales_prioridad.json`, `resumen_interpretaciones.json`, `modelos/region_fuera_*.pt` |
 | `05_aplicacion.ipynb` | 3.3 | Aplica el modelo final a las 120 candidatas y construye la matriz de priorización | `aplicacion_predicciones.csv`, `matriz_priorizacion.csv`, `matriz_priorizacion.geojson` |
-| `06_figuras_tdg.ipynb` | — | Genera las figuras del documento que no son mapas | `figuras_tdg/` |
+
 
 ## Requisitos
 
