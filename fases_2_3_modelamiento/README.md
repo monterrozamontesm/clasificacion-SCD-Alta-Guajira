@@ -1,6 +1,6 @@
 # Fases 2 y 3: modelamiento, evaluación y priorización
 
-Seis *notebooks* de Google Colaboratory que se ejecutan en orden. Se comunican entre sí únicamente a través de la carpeta `salidas/`: cada uno lee lo que dejaron los anteriores y agrega lo suyo. Si a uno le falta un archivo, se detiene e indica qué *notebook* debe ejecutarse antes.
+Cinco *notebooks* de Google Colaboratory que se ejecutan en orden. Se comunican entre sí únicamente a través de la carpeta `salidas/`: cada uno lee lo que dejaron los anteriores y agrega lo suyo. Si a uno le falta un archivo, se detiene e indica qué *notebook* debe ejecutarse antes.
 
 ## Notebooks
 
@@ -21,7 +21,7 @@ Seis *notebooks* de Google Colaboratory que se ejecutan en orden. Se comunican e
 
 ## Archivos clave de `salidas/`
 
-- `particion.hash`: suma de verificación de la partición oficial. Los *notebooks* 02 a 06 la comparan antes de trabajar.
+- `particion.hash`: suma de verificación de la partición oficial. Los *notebooks* 02 a 05 la comparan antes de trabajar.
 - `modelo_final.pt`: el modelo YOLOv8n-cls aplicado a la Alta Guajira. El *notebook* 05 comprueba su identificador SHA-256 antes de predecir.
 - `umbrales_prioridad.json`: temperatura de calibración (T = 1,03) y cortes de las franjas (alta desde P(H2) = 0,710 y media desde 0,092).
 - `matriz_priorizacion.geojson`: la matriz de priorización de las 120 estructuras, lista para abrir en ArcGIS Pro o QGIS (EPSG:4326).
