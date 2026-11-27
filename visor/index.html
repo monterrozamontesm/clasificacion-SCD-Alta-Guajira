@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Visor de candidatas SCD · Alta Guajira</title>
+<meta name="description" content="Visor de las 120 estructuras candidatas a depresiones subcirculares (SCD) de la Alta Guajira, ordenadas en franjas de prioridad por un modelo de visión artificial.">
+<link rel="stylesheet" href="lib/leaflet.css">
+<style>
+  :root{--azul:#0E2841;--tinta:#1f2a33;--gris:#5b6474;--alta:#D55E00;--media:#F5C400;--baja:#56B4E9}
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--tinta)}
+  #mapa{position:absolute;inset:0;background:#1b1f24}
+  .panel{position:absolute;top:12px;left:12px;z-index:1000;width:300px;max-width:calc(100% - 24px);background:rgba(255,255,255,.96);border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,.28);padding:14px 16px 12px}
+  .panel h1{font-size:17px;line-height:1.25;margin:0 0 4px;padding-right:70px;color:var(--azul)}
+  .panel .sub{font-size:12.5px;color:var(--gris);margin:0 0 10px;line-height:1.35}
+  .panel .cuerpo{display:block}
+  .panel.plegado .cuerpo,.panel.plegado .sub{display:none}.panel.plegado h1{margin:0}
+  .btn-plegar{position:absolute;top:10px;right:10px;border:0;background:#eef3f7;color:var(--azul);border-radius:8px;font-size:13px;font-weight:700;padding:4px 9px;cursor:pointer}
+  fieldset{border:0;margin:0 0 10px;padding:0}
+  legend{font-size:12px;font-weight:700;color:var(--gris);text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px}
+  label.capa{display:flex;align-items:center;gap:9px;font-size:14.5px;padding:4px 0;cursor:pointer}
+  label.capa input{width:17px;height:17px;margin:0;accent-color:var(--azul)}
+  .punto{width:14px;height:14px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.35);flex:none}
+  .cuenta{margin-left:auto;color:var(--gris);font-size:13px}
+  label.todas{font-weight:700;border-bottom:1px solid #e3e8ed;padding-bottom:7px;margin-bottom:3px}
+  .buscar{display:flex;gap:6px}
+  .buscar input{flex:1;min-width:0;font-size:15px;padding:6px 8px;border:1px solid #c9d3dc;border-radius:8px}
+  .buscar button{border:0;background:var(--azul);color:#fff;font-weight:700;font-size:14px;border-radius:8px;padding:6px 12px;cursor:pointer}
+  .aviso{font-size:12.5px;color:#9a3a00;min-height:16px;margin-top:4px}
+  .nota{font-size:12px;color:var(--gris);line-height:1.35;margin:6px 0 0}
+  .nota a{color:#0072B2}
+  .ficha{font-size:13.5px;line-height:1.4;min-width:210px}
+  .ficha h2{font-size:15.5px;margin:0 0 6px;color:var(--azul)}
+  .ficha table{border-collapse:collapse;width:100%}
+  .ficha td{padding:2px 0;vertical-align:top}
+  .ficha td:first-child{color:var(--gris);padding-right:10px;white-space:nowrap}
+  .ficha .franja{display:inline-block;padding:0 8px;border-radius:10px;font-weight:700;font-size:12.5px}
+  .ficha .alt{margin-top:6px;padding-top:6px;border-top:1px solid #e3e8ed}
+  .ficha .marca{margin-top:6px;font-size:12.5px;color:#9a5b00}
+  .ficha button{margin-top:8px;border:0;background:#eef3f7;color:var(--azul);font-weight:700;border-radius:8px;padding:5px 10px;cursor:pointer}
+  .leaflet-container{font-family:inherit}
+  .leaflet-tooltip.etq{font-weight:700;font-size:12px;padding:2px 6px}
+  @media (max-width:600px){.panel{width:auto;right:12px;padding:12px 14px 10px}.panel h1{font-size:15.5px}}
+</style>
+</head>
+<body>
+<div id="mapa" role="application" aria-label="Mapa de las candidatas SCD sobre imagen satelital"></div>
+
+<div class="panel" id="panel">
+  <button class="btn-plegar" id="plegar" aria-expanded="true">Ocultar</button>
+  <h1>Candidatas SCD · Alta Guajira</h1>
+  <p class="sub">120 estructuras ordenadas en franjas de prioridad según la probabilidad de ser SCD que les asignó el modelo YOLOv8n-cls.</p>
+  <div class="cuerpo">
+    <fieldset>
+      <legend>Capas</legend>
+      <label class="capa todas"><input type="checkbox" id="todas" checked>Todas las candidatas<span class="cuenta">120</span></label>
+      <label class="capa"><input type="checkbox" data-franja="alta" checked><span class="punto" style="background:var(--alta)"></span>Franja alta<span class="cuenta" data-cuenta="alta"></span></label>
+      <label class="capa"><input type="checkbox" data-franja="media" checked><span class="punto" style="background:var(--media)"></span>Franja media<span class="cuenta" data-cuenta="media"></span></label>
+      <label class="capa"><input type="checkbox" data-franja="baja" checked><span class="punto" style="background:var(--baja)"></span>Franja baja<span class="cuenta" data-cuenta="baja"></span></label>
+      <label class="capa"><input type="checkbox" id="nombres">Nombres de lugares</label>
+    </fieldset>
+    <fieldset>
+      <legend>Ir a una candidata</legend>
+      <form class="buscar" id="buscar">
+        <input type="number" id="numero" min="1" max="120" inputmode="numeric" placeholder="Prioridad, de 1 a 120" aria-label="Número de prioridad">
+        <button type="submit">Ir</button>
+      </form>
+      <div class="aviso" id="aviso" aria-live="polite"></div>
+    </fieldset>
+    <p class="nota">Toque un punto para ver su ficha. La prioridad 1 es la candidata con mayor probabilidad de ser SCD. El orden es un insumo para la validación en campo, no una confirmación.<br>
+    <a href="https://github.com/monterrozamontesm/clasificacion-SCD-Alta-Guajira">Repositorio del trabajo de grado</a></p>
+  </div>
+</div>
+
+<script src="lib/leaflet.js"></script>
+<script>
+(function () {
+  var DATOS = "../fases_2_3_modelamiento/salidas/matriz_priorizacion.geojson";
+  var COLOR = { alta: "#D55E00", media: "#F5C400", baja: "#56B4E9" };
+  var NOMBRE_FRANJA = { alta: "Alta", media: "Media", baja: "Baja" };
+  var CLASE = { "H2": "SCD", "Jaguey": "Jagüey" };
+  function clase(c) { return CLASE[c] || c; }
+  function num(v, d) { return Number(v).toFixed(d).replace(".", ","); }
+
+  var mapa = L.map("mapa", { zoomControl: false, maxZoom: 20 });
+  L.control.zoom({ position: "bottomright", zoomInTitle: "Acercar", zoomOutTitle: "Alejar" }).addTo(mapa);
+  L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
+    maxZoom: 20, maxNativeZoom: 19,
+    attribution: "Imagen: Esri, Maxar, Earthstar Geographics y la comunidad de usuarios SIG"
+  }).addTo(mapa);
+  var nombres = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}", {
+    maxZoom: 20, maxNativeZoom: 19, attribution: "Nombres: Esri"
+  });
+  mapa.setView([12.05, -71.75], 9);
+  L.control.scale({ imperial: false, position: "bottomleft" }).addTo(mapa);
+
+  var grupos = { alta: L.layerGroup(), media: L.layerGroup(), baja: L.layerGroup() };
+  var porPrioridad = {};
+
+  function radio() { var z = mapa.getZoom(); return z >= 16 ? 9 : z >= 13 ? 7 : 5.5; }
+
+  function ficha(p) {
+    var f = p.franja;
+    var h = '<div class="ficha"><h2>Candidata n.º ' + p.prioridad + ' de 120</h2><table>' +
+      '<tr><td>Franja</td><td><span class="franja" style="background:' + COLOR[f] + ';color:' + (f === "alta" ? "#fff" : "#1f2a33") + '">' + NOMBRE_FRANJA[f] + '</span></td></tr>' +
+      '<tr><td>Probabilidad de SCD</td><td><b>' + num(p["P(H2)"], 3) + '</b></td></tr>' +
+      '<tr><td>Clase predicha</td><td><b>' + clase(p["clase predicha"]) + '</b></td></tr>' +
+      '<tr><td>ID de la estructura</td><td>' + p.id + '</td></tr></table>';
+    if (p["clase predicha"] === "H2") {
+      h += '<div class="alt">Si no es SCD, se parece más a <b>' + clase(p["clase alternativa"]) + '</b> (' + num(p["P(alternativa)"], 3) + ')</div>';
+    }
+    if (p.solapa_con_entrenamiento) {
+      h += '<div class="marca">Comparte terreno con una imagen de entrenamiento.</div>';
+    }
+    h += '<button type="button" data-ir="' + p.prioridad + '">Acercar</button></div>';
+    return h;
+  }
+
+  function ir(n) {
+    var m = porPrioridad[n];
+    if (!m) return false;
+    var f = m.feature.properties.franja;
+    if (!mapa.hasLayer(grupos[f])) { document.querySelector('[data-franja="' + f + '"]').checked = true; grupos[f].addTo(mapa); sincronizarTodas(); }
+    mapa.flyTo(m.getLatLng(), 18, { duration: 1.2 });
+    mapa.once("moveend", function () { m.openPopup(); });
+    return true;
+  }
+
+  mapa.on("popupopen", function (e) {
+    var b = e.popup.getElement().querySelector("[data-ir]");
+    if (b) b.addEventListener("click", function () { mapa.flyTo(e.popup.getLatLng(), 19, { duration: 0.8 }); });
+  });
+
+  fetch(DATOS).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (geo) {
+    var cuentas = { alta: 0, media: 0, baja: 0 };
+    var orden = geo.features.slice().sort(function (a, b) { return b.properties.prioridad - a.properties.prioridad; });
+    orden.forEach(function (ft) {
+      var p = ft.properties, c = ft.geometry.coordinates;
+      var m = L.circleMarker([c[1], c[0]], { radius: radio(), color: "#ffffff", weight: 2, fillColor: COLOR[p.franja], fillOpacity: 0.95 });
+      m.feature = ft;
+      m.bindPopup(ficha(p), { maxWidth: 280 });
+      m.bindTooltip("n.º " + p.prioridad, { direction: "top", offset: [0, -6], className: "etq" });
+      m.addTo(grupos[p.franja]);
+      porPrioridad[p.prioridad] = m;
+      cuentas[p.franja]++;
+    });
+    Object.keys(grupos).forEach(function (f) {
+      grupos[f].addTo(mapa);
+      document.querySelector('[data-cuenta="' + f + '"]').textContent = cuentas[f];
+    });
+    var limites = L.latLngBounds(geo.features.map(function (ft) { return [ft.geometry.coordinates[1], ft.geometry.coordinates[0]]; }));
+    mapa.fitBounds(limites, { padding: [30, 30] });
+  }).catch(function () {
+    document.getElementById("aviso").textContent = "No se pudieron cargar las candidatas. Recargue la página.";
+  });
+
+  mapa.on("zoomend", function () {
+    var r = radio();
+    Object.keys(grupos).forEach(function (f) { grupos[f].eachLayer(function (m) { m.setRadius(r); }); });
+  });
+
+  var casillas = document.querySelectorAll("[data-franja]");
+  function sincronizarTodas() {
+    var marcadas = Array.prototype.filter.call(casillas, function (c) { return c.checked; }).length;
+    var todas = document.getElementById("todas");
+    todas.checked = marcadas === casillas.length;
+    todas.indeterminate = marcadas > 0 && marcadas < casillas.length;
+  }
+  Array.prototype.forEach.call(casillas, function (c) {
+    c.addEventListener("change", function () {
+      var g = grupos[c.dataset.franja];
+      if (c.checked) g.addTo(mapa); else { mapa.closePopup(); mapa.removeLayer(g); }
+      sincronizarTodas();
+    });
+  });
+  document.getElementById("todas").addEventListener("change", function (e) {
+    var v = e.target.checked;
+    Array.prototype.forEach.call(casillas, function (c) { if (c.checked !== v) { c.checked = v; c.dispatchEvent(new Event("change")); } });
+    sincronizarTodas();
+  });
+  document.getElementById("nombres").addEventListener("change", function (e) {
+    if (e.target.checked) nombres.addTo(mapa); else mapa.removeLayer(nombres);
+  });
+
+  document.getElementById("buscar").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var n = parseInt(document.getElementById("numero").value, 10);
+    var aviso = document.getElementById("aviso");
+    if (!(n >= 1 && n <= 120)) { aviso.textContent = "Escriba un número de prioridad entre 1 y 120."; return; }
+    aviso.textContent = ir(n) ? "" : "Las candidatas aún se están cargando.";
+    if (window.matchMedia("(max-width:600px)").matches) plegar(true);
+  });
+
+  var panel = document.getElementById("panel"), btn = document.getElementById("plegar");
+  function plegar(si) { panel.classList.toggle("plegado", si); btn.textContent = si ? "Mostrar" : "Ocultar"; btn.setAttribute("aria-expanded", String(!si)); }
+  btn.addEventListener("click", function () { plegar(!panel.classList.contains("plegado")); });
+  if (window.matchMedia("(max-width:600px)").matches) plegar(true);
+})();
+</script>
+</body>
+</html>
